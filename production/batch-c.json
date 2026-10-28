@@ -1,0 +1,252 @@
+{
+  "batch": "c",
+  "generatedAt": "2026-10-28",
+  "generator": "image_gen__imagegen",
+  "resolutionNote": "Prompts requested 16:9 maximum available resolution. Tool schema has no explicit size field. Returned files are 1672×941, near 16:9; not claimed as native 4K. Originals retained.",
+  "referenceMethod": "Read matching entries in research/references.json. URLs identify stylistic/popularity references; prompts create new compositions and do not copy source artwork.",
+  "items": [
+    {
+      "id": "11-underwater-blue",
+      "title": "浅海回声",
+      "style": "青蓝海洞／水下摄影",
+      "prompt": "Create one original museum-quality atmospheric underwater photographic art wallpaper titled conceptually Shallow Sea Echoes. Ultra-wide landscape 16:9, highest available resolution. No text, no typography, no UI, no borders, not a collage. Camera inside a vast submerged limestone sea cave looking outward toward luminous cyan open water. Asymmetric natural rough navy rock arch occupies upper left and narrow edges, luminous water center kept spacious and simple. A shaft of soft sunlight enters from upper-center water opening and fans downward into delicate blue haze. Pale rippled sand in lower quarter, a beautiful small cluster of fine dark teal eelgrass ONLY at lower right, a few tiny distant fish toward center right. Deep Prussian blue at left, graduated teal to pale aquamarine in center. Underwater caustics physically believable, refined restrained particles, spacious contemplative composition. Strong art-directed asymmetry and cinematic volumetric depth, no coral fantasy, no neon, no giant fish, no human divers. Broad contiguous central open-water area for subtle animation. Original scene, do not reproduce any existing wallpaper. Photoreal high-end large format aquatic photography, precise limestone textures and natural underwater light, no painterly brushwork.",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1424044565",
+      "referenceCheckedAt": "2026-10-28",
+      "generatedAt": "2026-10-28",
+      "originalGenerationPath": "generated-assets/exec-1b41c8a5-c384-4977-a424-7a97f7d00960.png",
+      "outputPath": "public/wallpapers/11-underwater-blue.png",
+      "width": 1672,
+      "height": 941,
+      "actualResolution": "1672×941",
+      "viewImageInspected": true,
+      "inspectionNotes": "已用view_image亲检中央开放水域、左上岩洞边缘与右下海草。安全polygon保守避开实体及鱼群；未评分。",
+      "waterPolygon": [
+        [
+          0.4,
+          0.24
+        ],
+        [
+          0.79,
+          0.22
+        ],
+        [
+          0.89,
+          0.31
+        ],
+        [
+          0.84,
+          0.41
+        ],
+        [
+          0.7,
+          0.47
+        ],
+        [
+          0.66,
+          0.65
+        ],
+        [
+          0.49,
+          0.66
+        ],
+        [
+          0.4,
+          0.54
+        ]
+      ],
+      "skyPolygon": [],
+      "score": null
+    },
+    {
+      "id": "12-aurora-lake",
+      "title": "极夜信号",
+      "style": "克制极光／镜面湖泊夜景",
+      "prompt": "Produce one original premium fine-art landscape wallpaper, 16:9 widescreen, maximum available resolution, no text, no UI, no borders, not a collage. POLAR SIGNAL: a secluded arctic lake under a deep blue polar night, realistic large-format night photography with exquisitely restrained colors, exceptionally quiet and spacious composition. One small elegant weather observatory cabin with a single warm amber window sits on a curving low rocky peninsula at far lower-left, no other buildings. Broad glassy lake occupies lower 40 percent, clear continuous open water across center and right, soft quiet reflections. Low distant dark glacier mountains form a thin horizon at 56 percent image height, no dramatic skyscraper peaks. One narrow vertically folded pale celadon aurora descends from upper center-right, flowing softly toward upper left like translucent silk, subtle muted lavender only at its faint outer edge, not a vivid green rainbow. Dark navy sky dominates, sparse fine authentic stars, no oversized moon, no galaxy. The warm cabin is tiny, glacial stillness enormous. Desaturated silver blue reflection with small accent of pale green, natural thin haze above water. Fresh original geography and asymmetrical shore not resembling a famous reference. Precise crystalline image, subtle organic film grain, high tonal sophistication, realistic light.",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1275921440",
+      "referenceCheckedAt": "2026-10-28",
+      "generatedAt": "2026-10-28",
+      "originalGenerationPath": "generated-assets/exec-e7d10df3-b191-4885-be1e-4efa81caf512.png",
+      "outputPath": "public/wallpapers/12-aurora-lake.png",
+      "width": 1672,
+      "height": 941,
+      "actualResolution": "1672×941",
+      "viewImageInspected": true,
+      "inspectionNotes": "已用view_image亲检单独暖光观测站、远山和极光湖倒影。安全polygon排除左侧岩石前景及山脊；未评分。",
+      "waterPolygon": [
+        [
+          0.41,
+          0.66
+        ],
+        [
+          1,
+          0.66
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0.4,
+          1
+        ],
+        [
+          0.3,
+          0.9
+        ],
+        [
+          0.19,
+          0.82
+        ],
+        [
+          0.13,
+          0.76
+        ],
+        [
+          0.24,
+          0.71
+        ]
+      ],
+      "skyPolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0.46
+        ],
+        [
+          0.79,
+          0.48
+        ],
+        [
+          0.65,
+          0.51
+        ],
+        [
+          0.48,
+          0.49
+        ],
+        [
+          0.28,
+          0.48
+        ],
+        [
+          0.19,
+          0.51
+        ],
+        [
+          0,
+          0.46
+        ]
+      ],
+      "score": null
+    },
+    {
+      "id": "13-desert-dunes",
+      "title": "琥珀呼吸",
+      "style": "粉金沙丘／自然几何摄影",
+      "prompt": "Create one original premium fine-art desert wallpaper in widescreen 16:9 at maximum resolution. No text no UI no borders no collage. AMBER BREATH: incredibly elegant geometric crescent dunes at very first dawn, shot as a high-end medium-format landscape photograph with abstract modernist composition. Close large dune sweeps from lower left toward middle right as one crisp asymmetric curving ridge, three much smaller distant crescent dunes recede toward a tiny flat-topped mesa at far left horizon. Dune surfaces are pale dusty rose and honey gold in dawn light, contrasting cool desaturated slate blue and pale indigo shadow faces. Soft cream to powder blue clear sky occupies upper 35 percent, no sun disk, no clouds, no stars. Actual individual fine sand and sparse graceful wind ridges visible only in foreground, broad surfaces remain very smooth calm color fields. Long single clean light-shadow boundaries, sculptural precise geometries, vast negative space and gallery-print sophistication. No camels no plants no footprints no humans no buildings. Never reproduce the iconic Mojave desktop sand dune, entirely original dune structure with three interlocking crescents. Natural understated colors, not orange oversaturation, not fantasy, not painting, meticulous photorealism and restrained grain.",
+      "sourceUrl": "https://www.apple.com/ca/newsroom/2018/09/macos-mojave-is-available-today/",
+      "referenceCheckedAt": "2026-10-28",
+      "generatedAt": "2026-10-28",
+      "originalGenerationPath": "generated-assets/exec-f644619f-52b9-4cfe-b9b5-94f3e529f8b6.png",
+      "outputPath": "public/wallpapers/13-desert-dunes.png",
+      "width": 1672,
+      "height": 941,
+      "actualResolution": "1672×941",
+      "viewImageInspected": true,
+      "inspectionNotes": "已用view_image亲检清晨亮面与冷蓝阴影、前景细砂和远端平顶山。无水，不应用水纹；未评分。",
+      "waterPolygon": [],
+      "skyPolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0.3
+        ],
+        [
+          0.89,
+          0.3
+        ],
+        [
+          0.72,
+          0.25
+        ],
+        [
+          0.59,
+          0.29
+        ],
+        [
+          0.46,
+          0.27
+        ],
+        [
+          0.34,
+          0.31
+        ],
+        [
+          0.16,
+          0.28
+        ],
+        [
+          0.05,
+          0.29
+        ],
+        [
+          0,
+          0.31
+        ]
+      ],
+      "score": null
+    },
+    {
+      "id": "14-papercut-forest",
+      "title": "纸间森林",
+      "style": "实物厚纸雕／森林微缩景",
+      "prompt": "Create one original physical hand-cut paper sculpture artwork photographed beautifully as a premium widescreen 16:9 wallpaper, maximum available resolution, no text no UI no borders not a collage. THE PAPER FOREST. Absolutely must look like a real handmade layered paper shadowbox, NOT a painting, NOT a smooth vector graphic, NOT a realistic natural forest. Five to seven physically separated layers of thick matte art paper form a forest archway with slim stylized trunks and delicate cut fern leaves, framing a small warm cream circular paper moon in the far background at x0.57 y0.43. Restrained palette: dark bottle green near foreground, medium moss and sage green layers, pale ivory deepest layer, occasional tiny ochre paper leaves. Center has a winding narrow cream paper path receding through the arch. Clearly visible pale raw cardstock edges, unmistakable 1 to 3 millimeter thick paper sheets, some subtly curled leaf tips, small paper fibers, precise handmade cut edges. Directional studio light from upper left casts layered warm dark contact shadows onto the layer immediately behind, strong actual physical depth and edge occlusion, subtly embossed tactile cardstock surface. Artisanal luxury design-store window display, sophisticated balanced off-center composition, intricate branches at left and right edges with spacious softly lit center. Camera nearly frontal with very slight oblique angle so thickness and layer spacing visible. Keep consistent physical scale and perfectly crafted cut-paper construction. No water no pond no illustrated painted texture.",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3003287638",
+      "referenceCheckedAt": "2026-10-28",
+      "generatedAt": "2026-10-28",
+      "originalGenerationPath": "generated-assets/exec-80720631-9cc7-404d-ba78-b3d26f210541.png",
+      "outputPath": "public/wallpapers/14-papercut-forest.png",
+      "width": 1672,
+      "height": 941,
+      "actualResolution": "1672×941",
+      "viewImageInspected": true,
+      "inspectionNotes": "已用view_image亲检纸张厚度、粗纤维、切边和层间投影。中央米白为纸质小径，不是水；未评分。",
+      "waterPolygon": [],
+      "skyPolygon": [],
+      "score": null
+    },
+    {
+      "id": "15-dream-garden",
+      "title": "月下温室",
+      "style": "梦幻植物／月夜温室微距",
+      "prompt": "Create one original exceptionally refined dreamlike botanical fine-art wallpaper, horizontal widescreen 16:9 maximum available resolution, no text no UI no borders no collage. MOONLIT CONSERVATORY: inside a beautiful aged glass greenhouse at night, delicate slim black iron arches rise across the upper third in a coherent elegant architectural rhythm, glazing lightly misted and moonlit. A small hazy moon seen through the upper-right glass. White lily-of-the-valley plants are the clear main subject in foreground left and lower center, accurately formed curved stems each bearing a sequence of tiny white hanging bell-shaped flowers with small curled petal tips and broad dark green leaves, absolutely not generic lilies. Very fine dew on translucent ivory bell petals, softly luminous petal rims lit only by moonlight. Deep botanical emerald and blue-teal shadows, pale seafoam moonlight, a few tiny restrained warm-gold fireflies. An empty narrow dark stone path recedes toward a distant small glazed greenhouse door at center right, botanical beds either side; NO water or pond. Rich but carefully uncluttered handcrafted storybook magic with photographic botanical precision, restrained surreal atmosphere, painterly soft tonal transitions in distant foliage only, beautiful macro detail in selected flowers. Aperture depth gently softens the rear architecture while preserving coherent glass-panel lines. Strong asymmetric editorial composition, huge atmospheric depth, genuine night darkness and subtle highlights, not bright neon not purple fantasy no glitter clouds no giant blossoms no fairies.",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=943626696",
+      "referenceCheckedAt": "2026-10-28",
+      "generatedAt": "2026-10-28",
+      "originalGenerationPath": "generated-assets/exec-074c80ab-0d44-4cc6-b4d9-fa47b9a4fc73.png",
+      "outputPath": "public/wallpapers/15-dream-garden.png",
+      "width": 1672,
+      "height": 941,
+      "actualResolution": "1672×941",
+      "viewImageInspected": true,
+      "inspectionNotes": "已用view_image亲检白色铃兰花序、露珠、月轮及玻璃温室。右侧是石路而非水面，天空被玻璃梁分割，不设通用sky mask；未评分。",
+      "waterPolygon": [],
+      "skyPolygon": [],
+      "score": null
+    }
+  ]
+}

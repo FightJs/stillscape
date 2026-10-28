@@ -1,0 +1,410 @@
+{
+  "batch": "B",
+  "generatedAt": "2026-10-28",
+  "generator": "image_gen__imagegen",
+  "referenceAnalysisFile": "research/references.json",
+  "resolutionNote": "请求16:9及最高原生分辨率（prompt target 3840×2160）；工具实际返回全部1672×941，未放大、非原生4K。工具无size参数。",
+  "reviewNote": "每幅均调用view_image实际查看，仅记录自检观察，不自行给通过分；独立审核由主任务安排。",
+  "works": [
+    {
+      "id": "06-cyberpunk-city",
+      "title": "雨港第七码头",
+      "style": "赛博朋克／雨夜工业港",
+      "palette": [
+        "#0C1722",
+        "#587481",
+        "#F0AD55"
+      ],
+      "prompt": "Create one original premium fine-art desktop wallpaper, cinematic 16:9 landscape at the highest available resolution (target 3840x2160). Full bleed, no frame, no typography, no logo, no watermark, no UI, no collage. Title concept: 'Seventh Quay'. A richly detailed yet quiet speculative near-future rain harbor at 2 AM, viewed from just above the flooded service quay. Brutalist flood barriers and a long horizontal rail viaduct cut across the middle distance, monolithic towers receding through marine mist. One small suspended amber maintenance cabin is the emotional focus at the right third; a few tightly controlled icy cyan utility lights trace rails and steel edges. The lower 40 percent is near-black harbor water with physically coherent soft amber and cyan reflections broken by very fine rainfall. Two vast angular dock cranes are subtly silhouetted, a single distant train as a muted silver thread, no people, no adverts or lettering. Exceptional film-production architectural credibility, wet concrete pores, riveted steel, damp atmospheric depth. Composition deliberately asymmetric, broad dark negative space in the left upper region, clear focal hierarchy, near-black indigo and petrol blue palette with less than 3 percent warm light. Original architecture and camera composition; borrowing only general principles of layered urban depth and rain reflections from popular cyberpunk wallpapers, not reproducing any existing scene. Photoreal cinematic atmosphere, nuanced natural local contrast, subtle grain, no oversharpened game art, no excessive magenta neon, no flashy lens flare.",
+      "source": "original AI-generated raster, independently prompted from documented broad reference principles",
+      "sourcePath": "generated-assets/exec-f385ce47-7685-4b5c-a5a6-636c08df4407.png",
+      "path": "public/wallpapers/06-cyberpunk-city.png",
+      "publicPath": "/wallpapers/06-cyberpunk-city.png",
+      "width": 1672,
+      "height": 941,
+      "generatedAt": "2026-10-28",
+      "referenceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1747779570",
+      "effects": [
+        "rain",
+        "water",
+        "fog",
+        "lightPulse"
+      ],
+      "normalizedRegions": {
+        "water": [
+          [
+            0,
+            0.66
+          ],
+          [
+            0.59,
+            0.65
+          ],
+          [
+            0.61,
+            0.73
+          ],
+          [
+            0.89,
+            0.79
+          ],
+          [
+            1,
+            0.79
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "sky": [
+          [
+            0,
+            0
+          ],
+          [
+            0.52,
+            0
+          ],
+          [
+            0.45,
+            0.31
+          ],
+          [
+            0.24,
+            0.41
+          ],
+          [
+            0,
+            0.31
+          ]
+        ]
+      },
+      "inspection": "检视见工业建筑、雨水反射与暖灯关系连贯，未见文字、拼图或明显结构破裂；独立品质审核待主任务执行。",
+      "independentReviewStatus": "pending"
+    },
+    {
+      "id": "07-minimal-gradient",
+      "title": "呼吸之环",
+      "style": "极简／流体陶瓷渐变",
+      "palette": [
+        "#EBCBB5",
+        "#EC6F35",
+        "#9B9CB9"
+      ],
+      "prompt": "Create one original extraordinarily refined abstract sculpture wallpaper for a high-end design collection. Single image, 16:9 landscape, maximum native resolution target 3840x2160. Absolutely no typography, no logo, no UI, no frame, no collage. A large asymmetrical liquid-ceramic ribbon floats off-center toward the right, folding into one spacious elongated loop whose open interior echoes the empty left half of the image. Not a flower, not a fan, not repeating petals. Sculptural form has a thick rounded soft edge and a precise taper, convincingly continuous geometry. Surface moves from pale warm porcelain ivory on the lit upper edge through rich apricot and vivid burnt coral orange on the inner turn, with a very subtle pearlescent sheen, neither metallic nor plastic. The lower tail sweeps horizontally toward the far right margin and gently exits the frame. Two smaller soft ceramic droplets subtly balance the composition near bottom right but do not clutter it. Background is an immaculate continuous muted lavender-grey field that grades very gently to cool pale slate, with generous 45 percent left-side negative space. Quiet studio light produces delicate soft shadows within the sculptural folds; off-white edge lighting reveals skin-smooth microtexture. Sophisticated complementary coral/lavender color tension, impeccable antialiasing, gradual tonal transitions without banding. The entire piece feels like an impossible hand-made material photographed in a contemporary design museum. Strong bold silhouette and material beauty at thumbnail size. No pedestal, no room, no horizon, no confetti, no sphere cluster, no cheap rainbow gradient. Use only broad principles of a single flexible volume and intentional negative space from iconic OS wallpapers; entirely original geometry and color direction.",
+      "source": "original AI-generated raster, independently prompted from documented broad reference principles",
+      "sourcePath": "generated-assets/exec-401c2f4a-23cb-46b1-bd94-48d2cec53294.png",
+      "path": "public/wallpapers/07-minimal-gradient.png",
+      "publicPath": "/wallpapers/07-minimal-gradient.png",
+      "width": 1672,
+      "height": 941,
+      "generatedAt": "2026-10-28",
+      "referenceUrl": "https://blogs.windows.com/windowsexperience/2021/10/06/windows-11-blossoms-with-bloom-a-new-symbol-for-a-new-operating-system/",
+      "effects": [
+        "breathing",
+        "softLight",
+        "parallax"
+      ],
+      "normalizedRegions": {
+        "background": [
+          [
+            0,
+            0
+          ],
+          [
+            0.34,
+            0
+          ],
+          [
+            0.34,
+            0.7
+          ],
+          [
+            0.46,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "inspection": "检视连续陶瓷环未见断裂、文本或明显色带；两枚滴状体是有意构图。独立品质审核待执行。",
+      "independentReviewStatus": "pending"
+    },
+    {
+      "id": "08-surreal-monolith",
+      "title": "寂静的重量",
+      "style": "超现实／悬浮玄武岩",
+      "palette": [
+        "#B67652",
+        "#333631",
+        "#BCCAB9"
+      ],
+      "prompt": "Generate a single original fine-art surreal landscape desktop wallpaper, 16:9 wide format at highest available native resolution, target 3840x2160. No text, no logos, no watermark, no UI, no borders, no collage. Concept: 'The Weight of Silence'. An enormous disc of dense black basalt, naturally rough fractured volcanic stone on the rim but a geometrically perfect flattened upper surface, is suspended horizontally far above a remote terracotta salt basin. Its vast shadow runs diagonally from beneath it across the dusty foreground toward the lower left. The disc occupies the upper-right middle of the picture, not centered. A physically impossible slender column of red sand falls UPWARD from the ground into a small fissure in the underside, giving a unique quiet contradiction of gravity; no fantasy magic beam. At the edge of the immense shadow, a tiny solitary pale stone survey shelter is the only familiar architectural scale cue, about one five-hundredth the apparent size of the disc, no humans. The sky fills upper 55 percent and is very pale cool sea-green grading to soft porcelain near the horizon. A remote flat mesa on the far left disappears into atmospheric dust. Low side sun provides tactile rock fractures and a thin copper rim of light; no floating debris or duplicated objects. Geological detail should be convincing and restrained. Sensational scale without spectacle, severe elegant composition, gallery photography realism applied to an impossible subject, extraordinarily refined transitions, very faint medium-format grain. Palette only muted terracotta, charcoal basalt, pale celadon and warm ivory. Surreal conceptual tension, silence and poetic negative space. Entirely original arrangement, no existing artist signature objects, no underwater room, no room, no circular portal, no giant moon, no sci-fi spaceship.",
+      "source": "original AI-generated raster, independently prompted from documented broad reference principles",
+      "sourcePath": "generated-assets/exec-c2723286-5c91-4008-a338-4b829407e507.png",
+      "path": "public/wallpapers/08-surreal-monolith.png",
+      "publicPath": "/wallpapers/08-surreal-monolith.png",
+      "width": 1672,
+      "height": 941,
+      "generatedAt": "2026-10-28",
+      "referenceUrl": "https://www.wallpaperengine.space/wallpaper/wake-up",
+      "effects": [
+        "sandUp",
+        "dust",
+        "haze"
+      ],
+      "normalizedRegions": {
+        "sky": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.11
+          ],
+          [
+            0.57,
+            0.11
+          ],
+          [
+            0.45,
+            0.22
+          ],
+          [
+            0.45,
+            0.43
+          ],
+          [
+            0,
+            0.43
+          ]
+        ],
+        "sand": [
+          [
+            0.68,
+            0.31
+          ],
+          [
+            0.77,
+            0.31
+          ],
+          [
+            0.8,
+            0.65
+          ],
+          [
+            0.63,
+            0.65
+          ]
+        ]
+      },
+      "inspection": "检视巨盘与小屋尺度、巨影连贯；静态沙柱不能判定运动方向，建议动态粒子向上。首调用连接失败，原prompt重试成功，无坏图淘汰。独立品质审核待执行。",
+      "independentReviewStatus": "pending"
+    },
+    {
+      "id": "09-film-coast",
+      "title": "盐蓝海岸",
+      "style": "摄影风／35mm胶片海岸",
+      "palette": [
+        "#647D8C",
+        "#D1D1C4",
+        "#775E40"
+      ],
+      "prompt": "One original photographic fine-art coastal desktop wallpaper, widescreen 16:9 at highest native resolution, target 3840x2160. Must look like a beautifully exposed frame of professional 35mm color negative film, not digital illustration or CGI. No typography, no logo, no watermark, no border, no UI, no collage. An isolated Atlantic-like coast, seen from a high cliff at the quiet end of a winter afternoon. Strong asymmetrical composition: dark layered slate headland enters from the lower-right and curves inward toward the left middle, surrounding a long narrow crescent of wet pale sand. The ocean occupies the left 70 percent with finely layered blue-grey swells and believable irregular ivory foam, no repetitive decorative wave patterns. Near the lower third a solitary flat rust-colored tidal rock platform breaks the water, polished by waves. At the far end of the headland on the upper-right third sits a tiny off-white lighthouse with a faint warm lamp, only a distant punctuation, not a tall hero subject. An enormous soft misty slate-blue sky is a quiet upper band, the far horizon dissolves but stays coherent. Restrained color palette: salt grey, faded Prussian blue, pale warm foam, dark ochre coastal stone. Very subtle late sunlight catches one sliver of headland but there is no orange sunset sky. Authentic analog film characteristics: organic fine grain, delicate halation in brightest foam, gently lifted darks, subtle edge softness, controlled dynamic range, real photographic micro-detail rather than crunchy HDR. An emotionally calm, editorially sophisticated composition with strong natural diagonals. No people, no birds, no boat, no buildings except tiny lighthouse. Real-world plausible optics, scale, coastal erosion and water. The image is generated original artwork inspired only by broad coastal photographic composition principles, not a copy of an existing photo.",
+      "source": "original AI-generated raster, independently prompted from documented broad reference principles",
+      "sourcePath": "generated-assets/exec-a1359025-f70f-4fcc-8ec6-dcf97b66f42a.png",
+      "path": "public/wallpapers/09-film-coast.png",
+      "publicPath": "/wallpapers/09-film-coast.png",
+      "width": 1672,
+      "height": 941,
+      "generatedAt": "2026-10-28",
+      "referenceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3341326865",
+      "effects": [
+        "coastal",
+        "mist",
+        "grain"
+      ],
+      "normalizedRegions": {
+        "water": [
+          [
+            0,
+            0.27
+          ],
+          [
+            0.43,
+            0.28
+          ],
+          [
+            0.53,
+            0.35
+          ],
+          [
+            0.62,
+            0.41
+          ],
+          [
+            0.68,
+            0.48
+          ],
+          [
+            0.59,
+            0.65
+          ],
+          [
+            0.45,
+            0.64
+          ],
+          [
+            0.2,
+            0.65
+          ],
+          [
+            0.16,
+            0.79
+          ],
+          [
+            0.33,
+            0.87
+          ],
+          [
+            0.28,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "sky": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.19
+          ],
+          [
+            0.81,
+            0.19
+          ],
+          [
+            0.75,
+            0.2
+          ],
+          [
+            0.72,
+            0.22
+          ],
+          [
+            0,
+            0.22
+          ]
+        ]
+      },
+      "inspection": "检视海岸几何与浪花自然，未见文字或明显复制浪纹；为生成的摄影风艺术，并非实拍。水效需要避开礁石。独立品质审核待执行。",
+      "independentReviewStatus": "pending"
+    },
+    {
+      "id": "10-deep-space",
+      "title": "蓝色寂静",
+      "style": "深空／暗分子云",
+      "palette": [
+        "#020B13",
+        "#376E98",
+        "#AFD5ED",
+        "#967556"
+      ],
+      "prompt": "Create one original awe-inspiring astronomical fine-art desktop wallpaper, full-bleed widescreen 16:9, highest available native resolution target 3840x2160. No words, no logos, no labels, no UI, no border, no collage. Concept 'The Blue Silence'. A vast dark molecular cloud seen in extreme deep space, with a single sweeping curved boundary from the lower-left through the center to the upper-right. The cloud itself is an immense almost-black indigo negative volume filling the upper-left, while its eroded edge is lit by a cool luminous blue-white embedded young star cluster at the right third. The bright rim reveals wispy semi-transparent filaments, countless fine branching dust structures and delicate veil-like nebular gas, convincingly astronomical in scale and density. A restrained copper-brown dust lane threads through the lower middle like a subtle scar; not a rainbow. Tiny sharply differing star sizes give profound distance; stars are mainly pinpoints, with a very few natural diffraction points, no theatrical lens flares. At least one-third of the frame remains very dark and calm, and the glow has carefully preserved fine detail instead of blown-out white. Composition has a strong asymmetrical arc and far-reaching depth, based on real telescope aesthetics and physically plausible nebular scattering, but the astronomical scene is wholly invented and must not copy an existing telescope photograph or identifiable famous nebula. Grand and reverent, delicate natural complexity, nuanced blue-black shadows, silver-cyan rim, a small touch of burnished copper, very high fidelity. No planet, no spaceship, no horizon, no giant moon, no human silhouette, no fantasy portal, no cartoon rendering, no oversaturated magenta clouds, no regular star patterns. Designed to remain rich and legible as a desktop wallpaper.",
+      "source": "original AI-generated raster, independently prompted from documented broad reference principles",
+      "sourcePath": "generated-assets/exec-2421286e-753c-4b11-b5f9-2097dd5d7226.png",
+      "path": "public/wallpapers/10-deep-space.png",
+      "publicPath": "/wallpapers/10-deep-space.png",
+      "width": 1672,
+      "height": 941,
+      "generatedAt": "2026-10-28",
+      "referenceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1449131353",
+      "effects": [
+        "nebula",
+        "stars",
+        "parallax"
+      ],
+      "normalizedRegions": {
+        "nebula": [
+          [
+            0,
+            0.64
+          ],
+          [
+            0.35,
+            0.55
+          ],
+          [
+            0.6,
+            0.36
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            0.96,
+            0
+          ],
+          [
+            0.85,
+            0.52
+          ],
+          [
+            0.62,
+            0.78
+          ],
+          [
+            0.3,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "stars": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "inspection": "检视暗云、光弧与星簇，未见文字、重复星阵或明显接缝；为原创虚构星云，并非真实观测数据。独立品质审核待执行。",
+      "independentReviewStatus": "pending"
+    }
+  ]
+}

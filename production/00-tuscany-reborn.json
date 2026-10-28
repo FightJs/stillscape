@@ -1,0 +1,33 @@
+{
+  "id": "00-tuscany-reborn",
+  "title": "托斯卡纳的呼吸",
+  "date": "2026-10-28",
+  "tool": "OpenAI image_gen.imagegen",
+  "reference": "本任务原始原创油画public/tuscany.png，不使用外部参考底图",
+  "nativeSize": [
+    1672,
+    941
+  ],
+  "image": "public/wallpapers/00-tuscany-reborn.png",
+  "generatedSource": "generated-assets/exec-ef750aae-8996-4538-8121-81b5a4584ff0.png",
+  "prompt": "Repaint this landscape into an exceptional premium oil painting wallpaper at maximum available resolution, wide 16:9 panorama. Preserve thick impasto sunset clouds, distant lavender mountains, golden reflective lake and Tuscan villa right hillside. Animation clean plate: completely remove large tall foreground cypress trees at LEFT EDGE and isolated dark tree silhouettes crossing sky. Replace naturally with unobstructed sky, hills, lake shore and low foreground wildflowers. Keep small far trees near villa right. Broad readable central-left lake. No text, UI or borders.",
+  "foreground": {
+    "path": "public/layers/tuscany-cypress.png",
+    "generatedSource": "generated-assets/exec-e04ed5ad-f0b7-402e-a054-87c3b464f387.png",
+    "nativeSize": [
+      1024,
+      1536
+    ],
+    "transparent": true,
+    "prompt": "Single isolated foreground Tuscan cypress, full tree including trunk and root foot, transparent background. Dark olive green with honey sunset strokes on right, rich oil impasto matching original painting. Centered organic tapered crown, entire tip visible, no landscape/sky/ground/shadow."
+  },
+  "reviewStatus": "pending",
+  "revisions": [
+    {
+      "round": 2,
+      "source": "generated-assets/exec-af131717-ac0d-432f-8745-dec00bc78e1a.png",
+      "change": "太阳移至43%水平位置与主湖反光同轴；保留旧版在production/revisions/00-tuscany-round1.png",
+      "prompt": "Preserve exact oil composition and move sun from upper-right to x43% y34%, align sky glow with existing central golden reflection; single veiled sun; preserve clean left foreground, landscape, villa and shoreline; no text"
+    }
+  ]
+}

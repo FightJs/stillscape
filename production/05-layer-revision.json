@@ -1,0 +1,58 @@
+{
+  "id": "05-lowpoly-islands",
+  "revision": "Rotor split for real rotation",
+  "date": "2026-10-28",
+  "sourceImage": "public/wallpapers/05-lowpoly-islands.png",
+  "tool": "image_gen__imagegen",
+  "model": "Concrete model identifier not exposed by tool",
+  "layers": [
+    {
+      "path": "public/layers/05-clean.png",
+      "originalGenerationPath": "generated-assets/exec-8f57199c-f900-4c64-8cd3-448f7b1ae159.png",
+      "prompt": "Edit this supplied low-poly floating-island wallpaper with an extremely localized change only. Remove ALL FOUR windmill rotor blades and the long blade spars from the windmill near normalized x=0.676 y=0.225. The rotor occupies approximately x=0.645 to 0.708, y=0.158 to 0.297. Restore the pale mint sky and the cream stone tower surface wherever the removed blades were, making a clean animation background plate. Retain only the small central brown axle/hub nub at its current exact center around x=0.676 y=0.225, and retain the entire cream tower below. Do not leave any triangular blade tips, arms, ghost blades, blade shadows or sail remnants. Preserve every other part of the image exactly: same framing, image aspect ratio, islands, cottage, bridges, tower position, trees, colors, clouds, polygon surfaces and light. No crop, no added objects. Return the same 16:9 full landscape with the windmill rotor removed, no text.",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "inspection": "Viewed original and edited output with view_image. All four original blades removed; cream tower and small brown axle remain. Main scene composition preserved. The generated edit slightly changes hub location, so align to the clean plate."
+    },
+    {
+      "path": "public/layers/05-rotor.png",
+      "originalGenerationPath": "generated-assets/exec-57edbb98-9778-4653-8501-b9826df52cf7.png",
+      "prompt": "Using the supplied low-poly floating-island wallpaper only as the material and visual reference, create an ISOLATED WINDMILL ROTOR SPRITE on a fully transparent background. Only the central small brown polygonal wooden wheel hub plus EXACTLY FOUR blades, no tower, no sky, no house, no scenery, no floor, no text. Square image. The hub is exactly centered at (50%,50%) of the canvas. Four equal-length wooden spars arranged at exactly 90 degree intervals, reaching toward NE, SE, SW, NW. Each spar carries one broad triangular tapered faceted sail/blade in the outer half. Match the original windmill's warm ivory, honey ochre, soft muted terracotta/red, and taupe flat-shaded polygon planes. This is a truly hard-surface LOW POLY 3D rotor with visible triangular flat-shaded facets, not a painted pinwheel illustration. Near-front camera facing the rotor plane, just a slight 3D bevel visible, so its screen shape is almost rotationally symmetrical and can spin cleanly in CSS. Keep all four tips equally distant from center and fully inside the canvas with 12% transparent margin. Place the rotor center exactly at image center; four balanced triangular blades spread in an X. Clean antialiased alpha edges, completely transparent between blades and outside the rotor. No cast shadow on a background. Warm soft light from upper left matching reference. The sprite should be one cohesive four-blade mechanism, not four separate icons.",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "inspection": "Viewed local PNG with view_image. Exactly four faceted warm ivory/terracotta blades and a central brown wheel hub; isolated on real RGBA alpha. Very faint red RGB values outside silhouette have alpha 1/255 at sampled points, so are practically transparent, not opaque debris. No tower/background."
+    }
+  ],
+  "placement": {
+    "coordinateSystem": "All positions relative to complete clean image, top left origin.",
+    "cleanHubPixels": [
+      1130,
+      225
+    ],
+    "cleanHubNormalized": [
+      0.6758373205741627,
+      0.23910733262486716
+    ],
+    "rotorHubPixels": [
+      627,
+      620
+    ],
+    "rotorTransformOriginPercent": [
+      50,
+      49.441786283891545
+    ],
+    "suggestedRotorCanvasWidthRelativeToScene": 0.09569377990430622,
+    "suggestedRotorCanvasHeightRelativeToScene": 0.17003188097768332,
+    "initialRotorCanvasSizeAtNativeScene": [
+      160,
+      160
+    ],
+    "note": "Position the rotor's actual hub over the clean plate axle. Use transform-origin: 50% 49.44%. Place its top-left at (1130-80,225-160*620/1254), about (1050,145.9) at native 1672x941 size. Both layer and image must share the same contain/cover coordinate transform. Adjust scale after independent in-browser review."
+  },
+  "animation": {
+    "suggestion": "One slow continuous rotor rotation per 18–30 seconds, no pixel displacement of tower/islands. CSS rotation can use a separate inner element so translation does not rotate.",
+    "reviewStatus": "Operator inspection complete; independent visual review still required."
+  }
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "01-impasto-night",
+    "title": "The Starry Night",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=863123048",
+    "popularityEvidence": "Steam作品页：426,007 当前订阅，28,997 收藏。属于长期高订阅参考，不代表当周趋势。",
+    "style": "厚涂油画／旋涡星夜",
+    "palette": [
+      "#102D59",
+      "#2F67A1",
+      "#F2C75C"
+    ],
+    "composition": "大面积夜空配低位地景；明亮星体形成节奏。",
+    "texture": "方向性短笔触、厚涂肌理、冷暖笔触交织。",
+    "motionIdeas": [
+      "星光缓慢呼吸",
+      "笔触流场轻微转动",
+      "前后层极慢视差"
+    ],
+    "originalDirection": "原创《潮汐星原》：改为弧形海湾与小灯塔，偏心月轮；保留油彩语言，不复制原作柏树与村庄。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "02-ink-mountains",
+    "title": "Ink wind Black warrior",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2113406377",
+    "popularityEvidence": "Steam作品页：50,095 当前订阅，2,858 收藏。万级受欢迎作品；非百万级爆款。",
+    "style": "单色水墨／疏密留白",
+    "palette": [
+      "#ECE8DE",
+      "#797C77",
+      "#1F2827"
+    ],
+    "composition": "黑色主体集中，大片白色负空间；碎墨向外消散。",
+    "texture": "干湿浓淡变化、飞白、散墨边缘。",
+    "motionIdeas": [
+      "雾带横向漂移",
+      "淡墨缓慢晕开",
+      "远山分层视差"
+    ],
+    "originalDirection": "原创《听山》：将人物抽掉，改为纵向错落山峦、窄瀑与一叶小舟；只转译墨色与留白原则。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "03-ukiyoe-wave",
+    "title": "[ANIMATED] The Great Wave off Kanagawa",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1340469439",
+    "popularityEvidence": "Steam作品页：49,205 当前订阅，2,549 收藏；作品注明北斋原画。",
+    "style": "浮世绘／木版套色",
+    "palette": [
+      "#133F60",
+      "#4D7793",
+      "#EBDDBD"
+    ],
+    "composition": "大尺度弧线与小尺度远景对照，波纹提供线性节奏。",
+    "texture": "平涂色块、深色轮廓、纸感与有限色版。",
+    "motionIdeas": [
+      "波纹分层平移",
+      "泡沫稀疏漂落",
+      "纸面固定保持静谧"
+    ],
+    "originalDirection": "原创《松风潮汐》：以松枝、月亮和扇形潮纹重构，无富士山、巨浪拱门或原作舟群。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "04-pixel-rain",
+    "title": "pixel rain",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2908791635",
+    "popularityEvidence": "Steam作品页：231,272 当前订阅，13,421 收藏。",
+    "style": "像素艺术／雨夜氛围",
+    "palette": [
+      "#171D35",
+      "#425A81",
+      "#F2B66E"
+    ],
+    "composition": "建筑或窗框形成稳定画面；小面积暖光成为情绪焦点。",
+    "texture": "硬边像素簇、有限调色板、阶梯状明暗。",
+    "motionIdeas": [
+      "整数像素雨线",
+      "2至4帧灯光闪动",
+      "积水小涟漪"
+    ],
+    "originalDirection": "原创《凌晨便利店》：独立设计街角小店、遮雨棚、自动售卖机；避免复制参考画面和字标。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "05-lowpoly-islands",
+    "title": "Rabbit Flying a Carrot",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1808443523",
+    "popularityEvidence": "Steam作品页：224,122 当前订阅，11,944 收藏；标签Approved。",
+    "style": "低多边形／轻量三维",
+    "palette": [
+      "#B5E1DC",
+      "#F0EEDC",
+      "#65A28E"
+    ],
+    "composition": "孤立立体物漂浮于大量清空背景；三角切面提供识别度。",
+    "texture": "平面法线、硬切面、少量阴影、无复杂贴图。",
+    "motionIdeas": [
+      "浮岛缓慢升降",
+      "云层平行移动",
+      "相机极小幅度摆动"
+    ],
+    "originalDirection": "原创《浮岛邮局》：三座切面悬岛、细桥与小风车，采用薄荷与赭石配色，不使用兔子或胡萝卜飞行器。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "06-cyberpunk-city",
+    "title": "2AM Cyberpunk City /w System Clock and Customizable Skyscraper Text",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1747779570",
+    "popularityEvidence": "Steam作品页：531,213 当前订阅，36,141 收藏。",
+    "style": "赛博朋克／霓虹都市",
+    "palette": [
+      "#0C1127",
+      "#D9418C",
+      "#4AD7D8"
+    ],
+    "composition": "密集竖向楼体、层叠远景、少量霓虹焦点。",
+    "texture": "雨雾、湿反射、发光标牌、暗部细节。",
+    "motionIdeas": [
+      "招牌亮度低频变化",
+      "细雨与远处交通流",
+      "雾层缓慢横移"
+    ],
+    "originalDirection": "原创《雨港第七码头》：横向高架与港口吊机取代高楼广告主景，使用抽象图形招牌和原创城市轮廓。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "07-minimal-gradient",
+    "title": "Windows 11 Bloom",
+    "sourceUrl": "https://blogs.windows.com/windowsexperience/2021/10/06/windows-11-blossoms-with-bloom-a-new-symbol-for-a-new-operating-system/",
+    "popularityEvidence": "微软官方2021年文章确认Bloom为Windows 11首次呈现的桌面壁纸及系统符号。依据为官方系统分发与标志性地位；没有可核实的单图下载数，不能称2026实时爆款。",
+    "style": "极简三维／柔性渐变",
+    "palette": [
+      "#E4E7EF",
+      "#8E9DB7",
+      "#4B6299"
+    ],
+    "composition": "单一柔性体位于留白中央，色调统一，轮廓比细节重要。",
+    "texture": "平滑曲面、柔光、连续色阶、细微材质反射。",
+    "motionIdeas": [
+      "缓慢呼吸形变",
+      "柔和光源轻移",
+      "固定相机"
+    ],
+    "originalDirection": "原创《呼吸之环》：两个不对称陶瓷环相互悬浮，用杏色到淡紫渐变，不采用Bloom折扇花瓣形。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "08-surreal-monolith",
+    "title": "Wake Up - Surreal Underwater Bedroom",
+    "sourceUrl": "https://www.wallpaperengine.space/wallpaper/wake-up",
+    "popularityEvidence": "独立索引Wallpaper Engine Space的Steam统计快照（2026-10-16）：2,095,740当前订阅、144,001收藏。此项使用第三方统计，不称实时官方数据。",
+    "style": "超现实／日常物与异境",
+    "palette": [
+      "#183B4C",
+      "#6CADA7",
+      "#E0CFC0"
+    ],
+    "composition": "熟悉的生活尺度与不可能的环境组合，形成清晰叙事焦点。",
+    "texture": "柔雾、体积光、漂浮感、真实与梦境的接缝。",
+    "motionIdeas": [
+      "悬浮物缓慢公转",
+      "空气尘埃",
+      "雾气穿过建筑"
+    ],
+    "originalDirection": "最终原创《寂静的重量》：以悬浮玄武岩巨盘、盐盆与微小房屋构成尺度冲突，不使用海底卧室或鲸群。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "09-film-coast",
+    "title": "nature landscape with black sand beach",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3341326865",
+    "popularityEvidence": "Steam作品页：34,171 当前订阅，1,758 收藏。作者声明图源为Freepik且由AI生成，因此仅作为摄影感构图参考，不称实拍胶片作品。",
+    "style": "摄影感海岸／克制色彩",
+    "palette": [
+      "#263238",
+      "#7D9299",
+      "#D4D9D6"
+    ],
+    "composition": "低位湿沙反射、中远景岩柱与大面积雾天空。",
+    "texture": "柔雾、低饱和、湿润高光；原创另加入细颗粒胶片质感。",
+    "motionIdeas": [
+      "缓慢海浪边缘",
+      "薄雾漂移",
+      "轻微颗粒闪动"
+    ],
+    "originalDirection": "原创《盐蓝海岸》：改为礁石海湾与偏右灯塔，暖黄色微光作点睛；去掉原参考岩柱布局。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "10-deep-space",
+    "title": "Space Nebula (Blue)",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1449131353",
+    "popularityEvidence": "Steam作品页：394,703 当前订阅，16,885 收藏；作者说明是图像加小幅运动效果。",
+    "style": "深空／天体云气",
+    "palette": [
+      "#071426",
+      "#18558B",
+      "#94DBE2"
+    ],
+    "composition": "横贯画面的发光星云与空旷暗区对照，小星点建立尺度。",
+    "texture": "半透明云气、粒子星点、细微辉光。",
+    "motionIdeas": [
+      "星云极慢流动",
+      "近远星点不同速度",
+      "少量星体闪烁"
+    ],
+    "originalDirection": "最终原创《蓝色寂静》：非具象弧形气体带围绕暗核，加入少量铜金尘埃，不仿照参考星云轮廓。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "11-underwater-blue",
+    "title": "underwater animated",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1424044565",
+    "popularityEvidence": "Steam作品页：84,944 当前订阅，3,425 收藏；标签Approved。",
+    "style": "水下／透明光束",
+    "palette": [
+      "#052F51",
+      "#137FA1",
+      "#81D8D4"
+    ],
+    "composition": "上方透光水面、向下展开的光束、下方开阔海床。",
+    "texture": "焦散、水雾、深度衰减、细小悬浮颗粒。",
+    "motionIdeas": [
+      "水面焦散循环",
+      "斜射光束缓慢摆动",
+      "小气泡向上"
+    ],
+    "originalDirection": "原创《浅海回声》：青蓝海洞开口与右侧海草，少量远处小鱼，保持中央清空和可读性。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "12-aurora-lake",
+    "title": "4K & 2K Aurora Lake",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1275921440",
+    "popularityEvidence": "Steam作品页：1,981,102 当前订阅，91,253 收藏，19,418条评分；标签Approved。",
+    "style": "极光／夜景镜面",
+    "palette": [
+      "#071B2D",
+      "#41BD9B",
+      "#A694CC"
+    ],
+    "composition": "天空与湖面镜像，暗山脊构成稳定边界，极光占大面积。",
+    "texture": "柔软光幕、星点、薄雾与水面倒影。",
+    "motionIdeas": [
+      "极光带慢速折叠",
+      "倒影轻微扰动",
+      "星点低幅度闪烁"
+    ],
+    "originalDirection": "原创《极夜信号》：偏心弧形湖岸、单个暖光观测站与窄极光瀑布，避免原参考山体轮廓。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "13-desert-dunes",
+    "title": "macOS Mojave Dynamic Desktop",
+    "sourceUrl": "https://www.apple.com/ca/newsroom/2018/09/macos-mojave-is-available-today/",
+    "popularityEvidence": "Apple官方2018年发布文确认系统Dynamic Desktop使用Mojave沙丘，并随本地时间从晨光过渡到夜晚。依据为系统内置代表作；无单图下载统计，不称实时榜单爆款。",
+    "style": "沙漠／自然几何与昼夜",
+    "palette": [
+      "#C58B56",
+      "#E7C697",
+      "#5C7290"
+    ],
+    "composition": "层叠沙丘和弧形脊线形成强几何，天空保持干净。",
+    "texture": "细砂、清晰光影边界、平滑低频色面。",
+    "motionIdeas": [
+      "缓慢昼夜色温过渡",
+      "非常稀疏的沙尘",
+      "太阳高度缓慢变化"
+    ],
+    "originalDirection": "原创《琥珀呼吸》：月牙形沙丘群与远处平顶山，取清晨粉金和冷蓝阴影，不复制Mojave独特主沙丘。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "14-papercut-forest",
+    "title": "Aesthetic Leaves Pastel (Animated)",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3003287638",
+    "popularityEvidence": "Steam作品页：17,029 当前订阅，1,047 收藏。属于有一定受众的细分风格参考，证据不足以称全平台火爆。",
+    "style": "纸雕／层叠叶片",
+    "palette": [
+      "#236D6F",
+      "#E9E0CB",
+      "#CF744F"
+    ],
+    "composition": "叶片与弧线层层覆盖，颜色交替建立深度。",
+    "texture": "纸张厚度、卷边、柔软投影、哑光表面。",
+    "motionIdeas": [
+      "前后纸层小幅视差",
+      "局部叶片轻摇",
+      "层间光线呼吸"
+    ],
+    "originalDirection": "原创《纸间森林》：由五层切纸组成拱形林道与中央暖光月轮，使用苔绿与奶油白，避开原参考抽象叶浪排列。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  },
+  {
+    "id": "15-dream-garden",
+    "title": "WINICE 21:9 2560×1080 花",
+    "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=943626696",
+    "popularityEvidence": "Steam作品页：43,695 当前订阅，2,796 收藏。WES将其索引为Glowing Fantasy Flower Garden。",
+    "style": "梦幻植物／生物荧光",
+    "palette": [
+      "#082D39",
+      "#2E7476",
+      "#A7E4D0"
+    ],
+    "composition": "发光花朵作为视觉焦点，深暗花园和小光点建立前后景。",
+    "texture": "半透明花瓣、柔焦背景、细小发光颗粒。",
+    "motionIdeas": [
+      "花瓣与茎轻摇",
+      "萤火颗粒不规则缓漂",
+      "花蕊缓慢明暗"
+    ],
+    "originalDirection": "原创《月下温室》：玻璃拱顶下的白色铃兰与萤火群，增加朦胧月影，不复制单朵蓝花造型。",
+    "checkedAt": "2026-10-28",
+    "analysisNote": "风格提炼是基于作品类别、作品页说明及公开预览描述的设计判断；palette是原创建议配色，非取色测量。"
+  }
+]

@@ -1,0 +1,923 @@
+{
+  "schemaVersion": 1,
+  "round": "2026-10-28-motion-final-targeted-pass",
+  "reviewer": "motion_acceptance",
+  "scope": "真实浏览器最终补验01、02、06、08、09、12六处修正；其余11项保持前轮实际视觉结论。原16幅默认/最大及有效强度隔离来自两轮实看；共享暂停恢复仅00和15抽查，第17幅独立3D按既定生命周期范围通过。",
+  "browser": "真实Chrome，1431×684；CUA约3秒多时刻截图肉眼对照，风车补0/0.5/1秒中间相位。",
+  "summary": {
+    "passed": 17,
+    "revise": 0,
+    "unverified": 0
+  },
+  "globalChecks": {
+    "sceneSwitching": "本轮15到00逐幅实际切换，场景与播放状态准确。",
+    "pauseResumeOriginal16": "共享控件实看抽查00、15：暂停后约3秒画面静止，状态为动效已暂停；显式点击播放后运动恢复。未声称16幅逐一重复暂停测试。",
+    "hiddenUiAndVisibilityRecovery": "02隐藏/显示界面正常且不影响运动；00主动暂停后打开空白标签并关闭返回仍保持暂停，显式播放后恢复。播放状态离开标签再返回仍正常运动。",
+    "independent3D": "沿用首轮通过证据，17未变更：默认运动、暂停静止、显式继续、返回iframe移除、再次打开运动。"
+  },
+  "scenes": {
+    "00-tuscany-reborn": {
+      "id": "00-tuscany-reborn",
+      "title": "托斯卡纳的呼吸",
+      "status": "passed",
+      "defaultObservation": "默认云层、树冠与湖纹在3秒内清楚变化。",
+      "maxObservation": "最大云水与树摆加强；首轮左右天空拉伸条在第二轮采样未再出现。",
+      "zeroControlObservation": "逐项只开树300、只开水300、只开云300：其余零档对应区域静止，开启项运动明确；首轮全零静止，本轮暂停/恢复亦实看通过。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:49–13:50 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+      ]
+    },
+    "01-impasto-night": {
+      "id": "01-impasto-night",
+      "title": "潮汐星原",
+      "status": "passed",
+      "defaultObservation": "默认旋涡笔触与金色水纹运动明确。",
+      "maxObservation": "最终补验：速度3×、星点300且水/云0时星点明暗变化，月轮保持完整圆形及绘画纹理，未再见矩形亮白补丁；水/云/星点全300时旋涡与水纹强烈运动，月轮和画缘干净。",
+      "zeroControlObservation": "前轮海湾金纹、旋涡云流、星点明暗分别隔离0/300可启停；最终面板已无阵风，只保留三项有效强度。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:51 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。",
+        "最终补验2026-10-28 15:06–15:10 Asia/Shanghai，真实Chrome 1431×684；01月面隔离/最大，02默认布局，06/08/09全零与隔离300，12最终面板/默认；各动态状态约3秒截图实看，截图仅在本agent工具记录。"
+      ],
+      "resolvedIssues": [
+        "星点300使月轮出现块状高亮补丁，需保护月轮后复验。",
+        "待移除难以独立辨认的阵风滑杆并核对最终面板。"
+      ]
+    },
+    "02-ink-mountains": {
+      "id": "02-ink-mountains",
+      "title": "听山",
+      "status": "passed",
+      "defaultObservation": "最终默认1×复验：文案位于右上留白，瀑布下段及落点完整可见；约3秒内瀑流亮纹、舟与倒影及低雾变化可辨，整体克制。",
+      "maxObservation": "最大瀑布流纹、舟与倒影位移、横向薄雾更明确，画面无明显撕裂。",
+      "zeroControlObservation": "水0/雾300时瀑布、舟、倒影静止而雾移动；水300/雾0时瀑流、舟、水纹运动而雾停止。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:51–13:52 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。",
+        "最终补验2026-10-28 15:06–15:10 Asia/Shanghai，真实Chrome 1431×684；01月面隔离/最大，02默认布局，06/08/09全零与隔离300，12最终面板/默认；各动态状态约3秒截图实看，截图仅在本agent工具记录。"
+      ],
+      "resolvedIssues": [
+        "默认说明卡片覆盖部分主要瀑布下段与落点，需移到留白区后复验默认可见性。"
+      ]
+    },
+    "03-ukiyoe-wave": {
+      "id": "03-ukiyoe-wave",
+      "title": "松风潮汐",
+      "status": "passed",
+      "defaultObservation": "默认松枝、低云与潮纹均有清楚变化。",
+      "maxObservation": "最大运动增强；首轮底边异常拉伸在本轮采样未再见。",
+      "zeroControlObservation": "分别仅开松枝300、潮纹300、低云300，其余0：各控制对应区域运动/停止明确。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:52 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+      ]
+    },
+    "04-pixel-rain": {
+      "id": "04-pixel-rain",
+      "title": "凌晨便利店",
+      "status": "passed",
+      "defaultObservation": "默认像素雨线持续落下，地面反光和店灯明暗可辨，建筑稳定。",
+      "maxObservation": "最大雨线长度、倾角、亮度与雨幕强度显著增加，肉眼差异明确；所看时刻无明显破图。",
+      "zeroControlObservation": "倾角0雨线垂直，300雨线明显倾斜；雨幕与溅水0后雨线/地面动态消失，店灯300仍有轻微暖光明暗；店灯0时雨幕保持运动而店面光稳定。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:52–13:53 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+      ]
+    },
+    "05-lowpoly-islands": {
+      "id": "05-lowpoly-islands",
+      "title": "浮岛邮局",
+      "status": "passed",
+      "defaultObservation": "默认风车叶片转动和底部云团漂移可辨，岛屿和桥保持稳定。",
+      "maxObservation": "补约0/0.5/1秒相位：默认叶片缓转，单独速度3×和单独转速300%均有更大角度推进，最大组合更快；避免了3秒端点接近整圈的混叠误判。",
+      "zeroControlObservation": "风车0时叶片固定而云300可漂移；云0时云团固定而风车300转动。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:53 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+      ]
+    },
+    "06-cyberpunk-city": {
+      "id": "06-cyberpunk-city",
+      "title": "雨港第七码头",
+      "status": "passed",
+      "defaultObservation": "默认细雨、港面反光变化清楚，可辨港雾亮暗变化；建筑结构稳定。",
+      "maxObservation": "最大雨幕更长更斜、更亮，港雾和反光变化明显增强；所看时刻建筑无明显撕裂。",
+      "zeroControlObservation": "最终面板为雨幕倾角、雨幕与湿反光、港口薄雾，独立霓虹已移除。速度3×全部强度0约3秒静止；水300/雾0时雨幕、水纹及湿反光变化，雾不流动；水0/雾300时仅雾带移动，雨与水纹静止。倾角0垂直/300斜雨沿用前轮实看。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:53–13:54 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。",
+        "最终补验2026-10-28 15:06–15:10 Asia/Shanghai，真实Chrome 1431×684；01月面隔离/最大，02默认布局，06/08/09全零与隔离300，12最终面板/默认；各动态状态约3秒截图实看，截图仅在本agent工具记录。"
+      ],
+      "resolvedIssues": [
+        "独立霓虹控件效果过弱，待并入雨水组并复验最终启停。"
+      ]
+    },
+    "07-minimal-gradient": {
+      "id": "07-minimal-gradient",
+      "title": "呼吸之环",
+      "status": "passed",
+      "defaultObservation": "默认3秒内高光由陶瓷环上部/侧部移向下部，光区位置变化清楚，主体轮廓稳定。",
+      "maxObservation": "最大光区更亮、更强，3秒内亮斑从环右侧移向左上；所看时刻无明显破图。",
+      "zeroControlObservation": "光影0约3秒陶瓷表面保持静止，300恢复局部亮区移动，轮廓稳定。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:54 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+      ]
+    },
+    "08-surreal-monolith": {
+      "id": "08-surreal-monolith",
+      "title": "寂静的重量",
+      "status": "passed",
+      "defaultObservation": "默认落沙柱内部下行短纹和明暗变化现已可辨。",
+      "maxObservation": "最大落沙流纹显著加强，石体、房屋稳定。",
+      "zeroControlObservation": "最终面板为落沙流速、薄雾与浮尘。速度3×两项0约3秒全画面静止；落沙0/雾尘300时沙柱流纹静止，薄雾和小浮尘移动。落沙300/雾0的下行流纹沿用前轮实看。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:54 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。",
+        "最终补验2026-10-28 15:06–15:10 Asia/Shanghai，真实Chrome 1431×684；01月面隔离/最大，02默认布局，06/08/09全零与隔离300，12最终面板/默认；各动态状态约3秒截图实看，截图仅在本agent工具记录。"
+      ],
+      "resolvedIssues": [
+        "实现审查发现散尘仍由未展示wind控制，父任务将归入cloud组；需最终全零复验。"
+      ]
+    },
+    "09-film-coast": {
+      "id": "09-film-coast",
+      "title": "盐蓝海岸",
+      "status": "passed",
+      "defaultObservation": "默认海浪与泡沫起伏可辨。",
+      "maxObservation": "最大保留了摄影泡沫/水面纹理，首轮大片平涂斑块不再出现；增强较首轮温和但可见。",
+      "zeroControlObservation": "最终面板仅海浪与泡沫、海雾流动；阵风已移除。速度3×两项0约3秒静止；水0/雾300时岸壁与远海雾带移动而泡沫形状稳定；水300/雾0时海浪泡沫推进，雾不再移动。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:54–13:55 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。",
+        "最终补验2026-10-28 15:06–15:10 Asia/Shanghai，真实Chrome 1431×684；01月面隔离/最大，02默认布局，06/08/09全零与隔离300，12最终面板/默认；各动态状态约3秒截图实看，截图仅在本agent工具记录。"
+      ],
+      "resolvedIssues": [
+        "需要新增海雾流动控制并验证0档，移除间接阵风控制。"
+      ]
+    },
+    "10-deep-space": {
+      "id": "10-deep-space",
+      "title": "蓝色寂静",
+      "status": "passed",
+      "defaultObservation": "默认星云主轮廓在3秒内有清楚漂流弯折，较首轮实质改善。",
+      "maxObservation": "最大星云运动更明显，亮核保持干净圆形，未再见首轮小矩形亮块。",
+      "zeroControlObservation": "星云0/星点300：星云轮廓固定且亮星明暗变化；星云300/星点0：星云明显移动而星点不再独立明灭。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:55 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+      ]
+    },
+    "11-underwater-blue": {
+      "id": "11-underwater-blue",
+      "title": "浅海回声",
+      "status": "passed",
+      "defaultObservation": "默认气泡上浮与扇形水光横移明确，海洞和海草主体轮廓稳定。",
+      "maxObservation": "最大水光区域、焦散和气泡明显增强，强光扫过范围显著变化；所看时刻无主体撕裂。",
+      "zeroControlObservation": "气泡水纹0/焦散300时气泡位置不变、光束移动；水纹300/焦散0时气泡上浮、原始水光稳定。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:55–13:56 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+      ]
+    },
+    "12-aurora-lake": {
+      "id": "12-aurora-lake",
+      "title": "极夜信号",
+      "status": "passed",
+      "defaultObservation": "默认紫色光带位移和湖面反光变化可辨，绿色主极光相对克制，山岸稳定。",
+      "maxObservation": "最大绿紫光带横跨天空移动，亮度与位移明显增强，湖纹更明显。",
+      "zeroControlObservation": "前轮全零静止，湖面光纹300时湖纹起伏，归零停止；极光与星点0无叠加光带；亮度300且帘波动0时紫光带位置固定，帘波动300后紫绿光带推进。最终面板已移除阵风，仅保留湖面光纹、极光帘波动、极光与星点。默认1×再次采样，紫色光带及湖面反光仍可辨。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:56 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。",
+        "最终补验2026-10-28 15:06–15:10 Asia/Shanghai，真实Chrome 1431×684；01月面隔离/最大，02默认布局，06/08/09全零与隔离300，12最终面板/默认；各动态状态约3秒截图实看，截图仅在本agent工具记录。"
+      ],
+      "resolvedIssues": [
+        "待移除间接阵风滑杆并核对最终面板。"
+      ]
+    },
+    "13-desert-dunes": {
+      "id": "13-desert-dunes",
+      "title": "琥珀呼吸",
+      "status": "passed",
+      "defaultObservation": "默认已有沿沙脊的宽尘带与近景薄沙变化，3秒可辨。",
+      "maxObservation": "最大薄沙条带更宽更明显，山脊本体稳定。",
+      "zeroControlObservation": "掠沙0时整个沙丘画面静止，300恢复贴脊薄沙推进。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:56–13:57 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+      ]
+    },
+    "14-papercut-forest": {
+      "id": "14-papercut-forest",
+      "title": "纸间森林",
+      "status": "passed",
+      "defaultObservation": "默认宽光束从左中扫向右侧纸层，局部明暗与层间阴影改变明显，主体位置稳定。",
+      "maxObservation": "最大光束更亮、明暗对照更强，3秒内从中央亮区移动到左侧树干，所看时刻无明显撕裂。",
+      "zeroControlObservation": "流动光影0时纸层明暗保持固定，300后宽光束从中心扫向左侧树层，主体保持稳定。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:57–13:58 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+      ]
+    },
+    "15-dream-garden": {
+      "id": "15-dream-garden",
+      "title": "月下温室",
+      "status": "passed",
+      "defaultObservation": "默认花叶摆动与萤火轨迹可辨，首轮白花双轮廓/透明残影本轮未再出现。",
+      "maxObservation": "最大花叶摆幅增强，轮廓连续，未见首轮重影撕开。",
+      "zeroControlObservation": "花叶轨迹0后花叶停止，光效可独立保留；光效0时花叶继续摆动；全零画面稳定。暂停3秒保持静止、显式点击播放恢复摆动。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:58 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。",
+        "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+        "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+      ]
+    },
+    "16-neon-drift": {
+      "id": "16-neon-drift",
+      "title": "霓虹夜航",
+      "status": "passed",
+      "defaultObservation": "打开独立3D iframe后3秒城市与车辆相对位置明显推进；返回后再次打开仍从初始航程正常运动。",
+      "maxObservation": "N/A：第17项本轮硬门槛为独立3D可动及生命周期；未测航速最大差异。",
+      "zeroControlObservation": "暂停后3秒画面保持不变且航程维持1.05KM；点击继续后城市重新推进、航程增至1.20KM。返回两次均通过DOM只读确认iframe数量为0。",
+      "issues": [],
+      "evidence": [
+        "2026-10-28 13:58–13:59 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+        "CUA实际打开、暂停、继续、返回、再次打开；画面多时刻实看与返回后iframe DOM计数相互印证。",
+        "截图显示于本次agent工具记录，尚未另存图片文件。"
+      ]
+    }
+  },
+  "previousRounds": [
+    {
+      "schemaVersion": 1,
+      "round": "2026-10-28-motion-first-pass",
+      "reviewer": "motion_acceptance",
+      "scope": "专项可见性与画面完整性首轮；原16幅零档/全局暂停恢复尚待补验，候选不提前放行。",
+      "browser": "真实Chrome，初始1431×684；14最大及15/16采样时视口变为1431×628。",
+      "summary": {
+        "passed": 1,
+        "revise": 9,
+        "unverified": 7
+      },
+      "globalChecks": {
+        "sceneSwitching": "16幅顺次切换均实际呈现对应场景与播放状态。",
+        "pauseResumeOriginal16": "待补实看；不得引用技术QA作为本报告通过证据。",
+        "hiddenUiAndVisibilityRecovery": "待补。",
+        "independent3D": "通过：默认运动、暂停静止、显式继续、返回iframe移除、再次打开运动。"
+      },
+      "scenes": {
+        "00-tuscany-reborn": {
+          "id": "00-tuscany-reborn",
+          "title": "托斯卡纳的呼吸",
+          "status": "passed",
+          "defaultObservation": "默认云层、树冠与湖纹在3秒内清楚变化。",
+          "maxObservation": "最大云水与树摆加强；首轮左右天空拉伸条在第二轮采样未再出现。",
+          "zeroControlObservation": "逐项只开树300、只开水300、只开云300：其余零档对应区域静止，开启项运动明确；首轮全零静止，本轮暂停/恢复亦实看通过。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:49–13:50 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "01-impasto-night": {
+          "id": "01-impasto-night",
+          "title": "潮汐星原",
+          "status": "revise",
+          "defaultObservation": "默认旋涡笔触与金色水纹运动明确。",
+          "maxObservation": "最大旋涡、水纹加强且上缘拉丝已消除；隔离星点300时月轮内部出现块状亮白斑。",
+          "zeroControlObservation": "海湾金纹、旋涡云流、星点明暗分别隔离0/300，对应运动可启停；间接阵风控件待移除。",
+          "issues": [
+            "星点300使月轮出现块状高亮补丁，需保护月轮后复验。",
+            "待移除难以独立辨认的阵风滑杆并核对最终面板。"
+          ],
+          "evidence": [
+            "2026-10-28 13:51 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "02-ink-mountains": {
+          "id": "02-ink-mountains",
+          "title": "听山",
+          "status": "revise",
+          "defaultObservation": "默认瀑流内部短亮纹、低雾和倒影可辨，较首轮明显改善但整体仍克制；caption遮挡瀑布下段左缘及部分落点。",
+          "maxObservation": "最大瀑布流纹、舟与倒影位移、横向薄雾更明确，画面无明显撕裂。",
+          "zeroControlObservation": "水0/雾300时瀑布、舟、倒影静止而雾移动；水300/雾0时瀑流、舟、水纹运动而雾停止。",
+          "issues": [
+            "默认说明卡片覆盖部分主要瀑布下段与落点，需移到留白区后复验默认可见性。"
+          ],
+          "evidence": [
+            "2026-10-28 13:51–13:52 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "03-ukiyoe-wave": {
+          "id": "03-ukiyoe-wave",
+          "title": "松风潮汐",
+          "status": "passed",
+          "defaultObservation": "默认松枝、低云与潮纹均有清楚变化。",
+          "maxObservation": "最大运动增强；首轮底边异常拉伸在本轮采样未再见。",
+          "zeroControlObservation": "分别仅开松枝300、潮纹300、低云300，其余0：各控制对应区域运动/停止明确。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:52 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "04-pixel-rain": {
+          "id": "04-pixel-rain",
+          "title": "凌晨便利店",
+          "status": "passed",
+          "defaultObservation": "默认像素雨线持续落下，地面反光和店灯明暗可辨，建筑稳定。",
+          "maxObservation": "最大雨线长度、倾角、亮度与雨幕强度显著增加，肉眼差异明确；所看时刻无明显破图。",
+          "zeroControlObservation": "倾角0雨线垂直，300雨线明显倾斜；雨幕与溅水0后雨线/地面动态消失，店灯300仍有轻微暖光明暗；店灯0时雨幕保持运动而店面光稳定。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:52–13:53 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "05-lowpoly-islands": {
+          "id": "05-lowpoly-islands",
+          "title": "浮岛邮局",
+          "status": "passed",
+          "defaultObservation": "默认风车叶片转动和底部云团漂移可辨，岛屿和桥保持稳定。",
+          "maxObservation": "补约0/0.5/1秒相位：默认叶片缓转，单独速度3×和单独转速300%均有更大角度推进，最大组合更快；避免了3秒端点接近整圈的混叠误判。",
+          "zeroControlObservation": "风车0时叶片固定而云300可漂移；云0时云团固定而风车300转动。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:53 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "06-cyberpunk-city": {
+          "id": "06-cyberpunk-city",
+          "title": "雨港第七码头",
+          "status": "revise",
+          "defaultObservation": "默认细雨、港面反光变化清楚，可辨港雾亮暗变化；建筑结构稳定。",
+          "maxObservation": "最大雨幕更长更斜、更亮，港雾和反光变化明显增强；所看时刻建筑无明显撕裂。",
+          "zeroControlObservation": "倾角0垂直、300斜雨；水0雨幕与港面扭曲停止；雾0无移动雾带/300横移。霓虹300隔离且3×速度仍仅极轻微明暗，无法作为明显有效独立控件。",
+          "issues": [
+            "独立霓虹控件效果过弱，待并入雨水组并复验最终启停。"
+          ],
+          "evidence": [
+            "2026-10-28 13:53–13:54 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "07-minimal-gradient": {
+          "id": "07-minimal-gradient",
+          "title": "呼吸之环",
+          "status": "passed",
+          "defaultObservation": "默认3秒内高光由陶瓷环上部/侧部移向下部，光区位置变化清楚，主体轮廓稳定。",
+          "maxObservation": "最大光区更亮、更强，3秒内亮斑从环右侧移向左上；所看时刻无明显破图。",
+          "zeroControlObservation": "光影0约3秒陶瓷表面保持静止，300恢复局部亮区移动，轮廓稳定。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:54 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "08-surreal-monolith": {
+          "id": "08-surreal-monolith",
+          "title": "寂静的重量",
+          "status": "revise",
+          "defaultObservation": "默认落沙柱内部下行短纹和明暗变化现已可辨。",
+          "maxObservation": "最大落沙流纹显著加强，石体、房屋稳定。",
+          "zeroControlObservation": "落沙0/雾300：柱体流纹停止、雾移动；落沙300/雾0：下行流纹恢复、雾带停止。",
+          "issues": [
+            "实现审查发现散尘仍由未展示wind控制，父任务将归入cloud组；需最终全零复验。"
+          ],
+          "evidence": [
+            "2026-10-28 13:54 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "09-film-coast": {
+          "id": "09-film-coast",
+          "title": "盐蓝海岸",
+          "status": "revise",
+          "defaultObservation": "默认海浪与泡沫起伏可辨。",
+          "maxObservation": "最大保留了摄影泡沫/水面纹理，首轮大片平涂斑块不再出现；增强较首轮温和但可见。",
+          "zeroControlObservation": "水0时海浪/泡沫几何运动停止，300恢复；风0与水0时仍有未受面板控制的海雾亮带移动。",
+          "issues": [
+            "需要新增海雾流动控制并验证0档，移除间接阵风控制。"
+          ],
+          "evidence": [
+            "2026-10-28 13:54–13:55 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "10-deep-space": {
+          "id": "10-deep-space",
+          "title": "蓝色寂静",
+          "status": "passed",
+          "defaultObservation": "默认星云主轮廓在3秒内有清楚漂流弯折，较首轮实质改善。",
+          "maxObservation": "最大星云运动更明显，亮核保持干净圆形，未再见首轮小矩形亮块。",
+          "zeroControlObservation": "星云0/星点300：星云轮廓固定且亮星明暗变化；星云300/星点0：星云明显移动而星点不再独立明灭。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:55 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "11-underwater-blue": {
+          "id": "11-underwater-blue",
+          "title": "浅海回声",
+          "status": "passed",
+          "defaultObservation": "默认气泡上浮与扇形水光横移明确，海洞和海草主体轮廓稳定。",
+          "maxObservation": "最大水光区域、焦散和气泡明显增强，强光扫过范围显著变化；所看时刻无主体撕裂。",
+          "zeroControlObservation": "气泡水纹0/焦散300时气泡位置不变、光束移动；水纹300/焦散0时气泡上浮、原始水光稳定。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:55–13:56 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "12-aurora-lake": {
+          "id": "12-aurora-lake",
+          "title": "极夜信号",
+          "status": "unverified",
+          "defaultObservation": "默认紫色光带位移和湖面反光变化可辨，绿色主极光相对克制，山岸稳定。",
+          "maxObservation": "最大绿紫光带横跨天空移动，亮度与位移明显增强，湖纹更明显。",
+          "zeroControlObservation": "全零静止；湖面光纹300时湖纹起伏，归零停止；极光与星点0无叠加光带；亮度300且帘波动0时紫光带位置固定，帘波动300后紫绿光带明显推进。阵风作用依赖湖纹、独立效果不清楚，待移除。",
+          "issues": [
+            "待移除间接阵风滑杆并核对最终面板。"
+          ],
+          "evidence": [
+            "2026-10-28 13:56 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "13-desert-dunes": {
+          "id": "13-desert-dunes",
+          "title": "琥珀呼吸",
+          "status": "passed",
+          "defaultObservation": "默认已有沿沙脊的宽尘带与近景薄沙变化，3秒可辨。",
+          "maxObservation": "最大薄沙条带更宽更明显，山脊本体稳定。",
+          "zeroControlObservation": "掠沙0时整个沙丘画面静止，300恢复贴脊薄沙推进。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:56–13:57 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "14-papercut-forest": {
+          "id": "14-papercut-forest",
+          "title": "纸间森林",
+          "status": "passed",
+          "defaultObservation": "默认宽光束从左中扫向右侧纸层，局部明暗与层间阴影改变明显，主体位置稳定。",
+          "maxObservation": "最大光束更亮、明暗对照更强，3秒内从中央亮区移动到左侧树干，所看时刻无明显撕裂。",
+          "zeroControlObservation": "流动光影0时纸层明暗保持固定，300后宽光束从中心扫向左侧树层，主体保持稳定。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:57–13:58 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "15-dream-garden": {
+          "id": "15-dream-garden",
+          "title": "月下温室",
+          "status": "passed",
+          "defaultObservation": "默认花叶摆动与萤火轨迹可辨，首轮白花双轮廓/透明残影本轮未再出现。",
+          "maxObservation": "最大花叶摆幅增强，轮廓连续，未见首轮重影撕开。",
+          "zeroControlObservation": "花叶轨迹0后花叶停止，光效可独立保留；光效0时花叶继续摆动；全零画面稳定。暂停3秒保持静止、显式点击播放恢复摆动。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:58 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "16-neon-drift": {
+          "id": "16-neon-drift",
+          "title": "霓虹夜航",
+          "status": "passed",
+          "defaultObservation": "打开独立3D iframe后3秒城市与车辆相对位置明显推进；返回后再次打开仍从初始航程正常运动。",
+          "maxObservation": "N/A：第17项本轮硬门槛为独立3D可动及生命周期；未测航速最大差异。",
+          "zeroControlObservation": "暂停后3秒画面保持不变且航程维持1.05KM；点击继续后城市重新推进、航程增至1.20KM。返回两次均通过DOM只读确认iframe数量为0。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:58–13:59 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "CUA实际打开、暂停、继续、返回、再次打开；画面多时刻实看与返回后iframe DOM计数相互印证。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。"
+          ]
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "round": "2026-10-28-motion-second-pass",
+      "reviewer": "motion_acceptance",
+      "scope": "真实浏览器第二轮：9项修复的默认/最大复看、原16幅有效强度隔离、共享暂停恢复抽查；待最终控件/布局修复项不提前通过。",
+      "browser": "真实Chrome，1431×684；CUA约3秒多时刻截图肉眼对照，风车补0/0.5/1秒中间相位。",
+      "summary": {
+        "passed": 11,
+        "revise": 5,
+        "unverified": 1
+      },
+      "globalChecks": {
+        "sceneSwitching": "本轮15到00逐幅实际切换，场景与播放状态准确。",
+        "pauseResumeOriginal16": "共享控件实看抽查00、15：暂停后约3秒画面静止，状态为动效已暂停；显式点击播放后运动恢复。未声称16幅逐一重复暂停测试。",
+        "hiddenUiAndVisibilityRecovery": "02隐藏/显示界面正常且不影响运动；00主动暂停后打开空白标签并关闭返回仍保持暂停，显式播放后恢复。播放状态离开标签再返回仍正常运动。",
+        "independent3D": "沿用首轮通过证据，17未变更：默认运动、暂停静止、显式继续、返回iframe移除、再次打开运动。"
+      },
+      "scenes": {
+        "00-tuscany-reborn": {
+          "id": "00-tuscany-reborn",
+          "title": "托斯卡纳的呼吸",
+          "status": "passed",
+          "defaultObservation": "默认云层、树冠与湖纹在3秒内清楚变化。",
+          "maxObservation": "最大云水与树摆加强；首轮左右天空拉伸条在第二轮采样未再出现。",
+          "zeroControlObservation": "逐项只开树300、只开水300、只开云300：其余零档对应区域静止，开启项运动明确；首轮全零静止，本轮暂停/恢复亦实看通过。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:49–13:50 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "01-impasto-night": {
+          "id": "01-impasto-night",
+          "title": "潮汐星原",
+          "status": "revise",
+          "defaultObservation": "默认旋涡笔触与金色水纹运动明确。",
+          "maxObservation": "最大旋涡、水纹加强且上缘拉丝已消除；隔离星点300时月轮内部出现块状亮白斑。",
+          "zeroControlObservation": "海湾金纹、旋涡云流、星点明暗分别隔离0/300，对应运动可启停；间接阵风控件待移除。",
+          "issues": [
+            "星点300使月轮出现块状高亮补丁，需保护月轮后复验。",
+            "待移除难以独立辨认的阵风滑杆并核对最终面板。"
+          ],
+          "evidence": [
+            "2026-10-28 13:51 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "02-ink-mountains": {
+          "id": "02-ink-mountains",
+          "title": "听山",
+          "status": "revise",
+          "defaultObservation": "默认瀑流内部短亮纹、低雾和倒影可辨，较首轮明显改善但整体仍克制；caption遮挡瀑布下段左缘及部分落点。",
+          "maxObservation": "最大瀑布流纹、舟与倒影位移、横向薄雾更明确，画面无明显撕裂。",
+          "zeroControlObservation": "水0/雾300时瀑布、舟、倒影静止而雾移动；水300/雾0时瀑流、舟、水纹运动而雾停止。",
+          "issues": [
+            "默认说明卡片覆盖部分主要瀑布下段与落点，需移到留白区后复验默认可见性。"
+          ],
+          "evidence": [
+            "2026-10-28 13:51–13:52 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "03-ukiyoe-wave": {
+          "id": "03-ukiyoe-wave",
+          "title": "松风潮汐",
+          "status": "passed",
+          "defaultObservation": "默认松枝、低云与潮纹均有清楚变化。",
+          "maxObservation": "最大运动增强；首轮底边异常拉伸在本轮采样未再见。",
+          "zeroControlObservation": "分别仅开松枝300、潮纹300、低云300，其余0：各控制对应区域运动/停止明确。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:52 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "04-pixel-rain": {
+          "id": "04-pixel-rain",
+          "title": "凌晨便利店",
+          "status": "passed",
+          "defaultObservation": "默认像素雨线持续落下，地面反光和店灯明暗可辨，建筑稳定。",
+          "maxObservation": "最大雨线长度、倾角、亮度与雨幕强度显著增加，肉眼差异明确；所看时刻无明显破图。",
+          "zeroControlObservation": "倾角0雨线垂直，300雨线明显倾斜；雨幕与溅水0后雨线/地面动态消失，店灯300仍有轻微暖光明暗；店灯0时雨幕保持运动而店面光稳定。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:52–13:53 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "05-lowpoly-islands": {
+          "id": "05-lowpoly-islands",
+          "title": "浮岛邮局",
+          "status": "passed",
+          "defaultObservation": "默认风车叶片转动和底部云团漂移可辨，岛屿和桥保持稳定。",
+          "maxObservation": "补约0/0.5/1秒相位：默认叶片缓转，单独速度3×和单独转速300%均有更大角度推进，最大组合更快；避免了3秒端点接近整圈的混叠误判。",
+          "zeroControlObservation": "风车0时叶片固定而云300可漂移；云0时云团固定而风车300转动。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:53 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "06-cyberpunk-city": {
+          "id": "06-cyberpunk-city",
+          "title": "雨港第七码头",
+          "status": "revise",
+          "defaultObservation": "默认细雨、港面反光变化清楚，可辨港雾亮暗变化；建筑结构稳定。",
+          "maxObservation": "最大雨幕更长更斜、更亮，港雾和反光变化明显增强；所看时刻建筑无明显撕裂。",
+          "zeroControlObservation": "倾角0垂直、300斜雨；水0雨幕与港面扭曲停止；雾0无移动雾带/300横移。霓虹300隔离且3×速度仍仅极轻微明暗，无法作为明显有效独立控件。",
+          "issues": [
+            "独立霓虹控件效果过弱，待并入雨水组并复验最终启停。"
+          ],
+          "evidence": [
+            "2026-10-28 13:53–13:54 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "07-minimal-gradient": {
+          "id": "07-minimal-gradient",
+          "title": "呼吸之环",
+          "status": "passed",
+          "defaultObservation": "默认3秒内高光由陶瓷环上部/侧部移向下部，光区位置变化清楚，主体轮廓稳定。",
+          "maxObservation": "最大光区更亮、更强，3秒内亮斑从环右侧移向左上；所看时刻无明显破图。",
+          "zeroControlObservation": "光影0约3秒陶瓷表面保持静止，300恢复局部亮区移动，轮廓稳定。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:54 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "08-surreal-monolith": {
+          "id": "08-surreal-monolith",
+          "title": "寂静的重量",
+          "status": "revise",
+          "defaultObservation": "默认落沙柱内部下行短纹和明暗变化现已可辨。",
+          "maxObservation": "最大落沙流纹显著加强，石体、房屋稳定。",
+          "zeroControlObservation": "落沙0/雾300：柱体流纹停止、雾移动；落沙300/雾0：下行流纹恢复、雾带停止。",
+          "issues": [
+            "实现审查发现散尘仍由未展示wind控制，父任务将归入cloud组；需最终全零复验。"
+          ],
+          "evidence": [
+            "2026-10-28 13:54 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "09-film-coast": {
+          "id": "09-film-coast",
+          "title": "盐蓝海岸",
+          "status": "revise",
+          "defaultObservation": "默认海浪与泡沫起伏可辨。",
+          "maxObservation": "最大保留了摄影泡沫/水面纹理，首轮大片平涂斑块不再出现；增强较首轮温和但可见。",
+          "zeroControlObservation": "水0时海浪/泡沫几何运动停止，300恢复；风0与水0时仍有未受面板控制的海雾亮带移动。",
+          "issues": [
+            "需要新增海雾流动控制并验证0档，移除间接阵风控制。"
+          ],
+          "evidence": [
+            "2026-10-28 13:54–13:55 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "10-deep-space": {
+          "id": "10-deep-space",
+          "title": "蓝色寂静",
+          "status": "passed",
+          "defaultObservation": "默认星云主轮廓在3秒内有清楚漂流弯折，较首轮实质改善。",
+          "maxObservation": "最大星云运动更明显，亮核保持干净圆形，未再见首轮小矩形亮块。",
+          "zeroControlObservation": "星云0/星点300：星云轮廓固定且亮星明暗变化；星云300/星点0：星云明显移动而星点不再独立明灭。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:55 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "11-underwater-blue": {
+          "id": "11-underwater-blue",
+          "title": "浅海回声",
+          "status": "passed",
+          "defaultObservation": "默认气泡上浮与扇形水光横移明确，海洞和海草主体轮廓稳定。",
+          "maxObservation": "最大水光区域、焦散和气泡明显增强，强光扫过范围显著变化；所看时刻无主体撕裂。",
+          "zeroControlObservation": "气泡水纹0/焦散300时气泡位置不变、光束移动；水纹300/焦散0时气泡上浮、原始水光稳定。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:55–13:56 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "12-aurora-lake": {
+          "id": "12-aurora-lake",
+          "title": "极夜信号",
+          "status": "unverified",
+          "defaultObservation": "默认紫色光带位移和湖面反光变化可辨，绿色主极光相对克制，山岸稳定。",
+          "maxObservation": "最大绿紫光带横跨天空移动，亮度与位移明显增强，湖纹更明显。",
+          "zeroControlObservation": "全零静止；湖面光纹300时湖纹起伏，归零停止；极光与星点0无叠加光带；亮度300且帘波动0时紫光带位置固定，帘波动300后紫绿光带明显推进。阵风作用依赖湖纹、独立效果不清楚，待移除。",
+          "issues": [
+            "待移除间接阵风滑杆并核对最终面板。"
+          ],
+          "evidence": [
+            "2026-10-28 13:56 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "13-desert-dunes": {
+          "id": "13-desert-dunes",
+          "title": "琥珀呼吸",
+          "status": "passed",
+          "defaultObservation": "默认已有沿沙脊的宽尘带与近景薄沙变化，3秒可辨。",
+          "maxObservation": "最大薄沙条带更宽更明显，山脊本体稳定。",
+          "zeroControlObservation": "掠沙0时整个沙丘画面静止，300恢复贴脊薄沙推进。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:56–13:57 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "14-papercut-forest": {
+          "id": "14-papercut-forest",
+          "title": "纸间森林",
+          "status": "passed",
+          "defaultObservation": "默认宽光束从左中扫向右侧纸层，局部明暗与层间阴影改变明显，主体位置稳定。",
+          "maxObservation": "最大光束更亮、明暗对照更强，3秒内从中央亮区移动到左侧树干，所看时刻无明显撕裂。",
+          "zeroControlObservation": "流动光影0时纸层明暗保持固定，300后宽光束从中心扫向左侧树层，主体保持稳定。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:57–13:58 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "15-dream-garden": {
+          "id": "15-dream-garden",
+          "title": "月下温室",
+          "status": "passed",
+          "defaultObservation": "默认花叶摆动与萤火轨迹可辨，首轮白花双轮廓/透明残影本轮未再出现。",
+          "maxObservation": "最大花叶摆幅增强，轮廓连续，未见首轮重影撕开。",
+          "zeroControlObservation": "花叶轨迹0后花叶停止，光效可独立保留；光效0时花叶继续摆动；全零画面稳定。暂停3秒保持静止、显式点击播放恢复摆动。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:58 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "默认与全部有效强度300%/速度3×分别采样约3秒，实际截图逐幅肉眼对照；未用数值变化代替视觉。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。",
+            "第二轮2026-10-28约14:08–15:02 Asia/Shanghai，真实Chrome逐项设置并约3秒多时刻截图实看；截图仅在本agent工具记录，未另存图片文件。",
+            "共享暂停/恢复在00及15抽查；逐场有效强度启停观察见zeroControlObservation。"
+          ]
+        },
+        "16-neon-drift": {
+          "id": "16-neon-drift",
+          "title": "霓虹夜航",
+          "status": "passed",
+          "defaultObservation": "打开独立3D iframe后3秒城市与车辆相对位置明显推进；返回后再次打开仍从初始航程正常运动。",
+          "maxObservation": "N/A：第17项本轮硬门槛为独立3D可动及生命周期；未测航速最大差异。",
+          "zeroControlObservation": "暂停后3秒画面保持不变且航程维持1.05KM；点击继续后城市重新推进、航程增至1.20KM。返回两次均通过DOM只读确认iframe数量为0。",
+          "issues": [],
+          "evidence": [
+            "2026-10-28 13:58–13:59 Asia/Shanghai，CUA真实Chrome，localhost:5173。",
+            "CUA实际打开、暂停、继续、返回、再次打开；画面多时刻实看与返回后iframe DOM计数相互印证。",
+            "截图显示于本次agent工具记录，尚未另存图片文件。"
+          ]
+        }
+      }
+    }
+  ]
+}

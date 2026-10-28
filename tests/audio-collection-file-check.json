@@ -1,0 +1,12 @@
+{
+  "frames": 3072000,
+  "sampleRate": 32000,
+  "channels": 2,
+  "sampleBytes": 2,
+  "seconds": 96.0,
+  "peakPCM": 3482,
+  "peakDbFS": -19.47242336356811,
+  "rms": 0.016023425439101423,
+  "clippedSamples": 0,
+  "sha256": "ee68a412d6a40f6b2bbb351b1e1324c0578f7347de886ee781dba5adfc3d6605"
+}

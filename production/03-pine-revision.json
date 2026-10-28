@@ -1,0 +1,67 @@
+{
+  "id": "03-ukiyoe-wave",
+  "revision": "Separate pine sprite for anchored sway",
+  "date": "2026-10-28",
+  "sourceImage": "public/wallpapers/03-ukiyoe-wave.png",
+  "tool": "image_gen__imagegen",
+  "model": "Concrete model identifier not exposed by tool",
+  "sourcePreserved": true,
+  "layers": [
+    {
+      "path": "public/layers/03-pine-clean.png",
+      "originalGenerationPath": "generated-assets/exec-a6e7e7bb-c8b6-4f5f-8afa-3ab1f6c5deff.png",
+      "prompt": "Edit the supplied Japanese woodblock-print wallpaper to create a clean animation background plate. REMOVE THE ENTIRE PINE TREE: all black-indigo needle clusters, all branches, all curving gnarled tree trunks and exposed roots protruding from the left cliff, including the long branch reaching across the top-left to x=0.40 and the small lower needles near x=0.18 y=0.32. Replace all removed tree shapes above and to the right of the cliff with perfectly continuous matching warm ivory washi-paper sky texture. Retain the actual dark rocky cliff on the left, restoring stone texture where tree roots overlapped it. The tree must be completely absent; no residual twigs, needles or stump sticking into the sky. Preserve the exact rest of this image: same horizontal framing, original left cliff silhouette, all blue woodblock sea waves and lines, cream foam, red sun/moon at upper-right, thin pale blue clouds, aged warm paper grain, limited palette. Do not move or redraw the moon/waves/clouds. No new scene, no new plants, no text, no blur, no borders. This is an exact localized deletion of the pine tree only, full-frame same-composition 16:9 artwork.",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "inspection": "view_image confirmed entire tree removed from upper-left sky, with warm paper fill. Left rocks, sea waves, red moon and pale blue clouds retained; no obvious tree remnants."
+    },
+    {
+      "path": "public/layers/03-pine-layer.png",
+      "originalGenerationPath": "generated-assets/exec-7c01428f-b28b-4dea-a5ad-ab3ca1b9e3bd.png",
+      "prompt": "Create a transparent animation layer extracted from the supplied Japanese woodblock-print wallpaper. Output a WIDE 16:9 transparent canvas matching the supplied landscape composition (approximately 1672x941). Keep ONLY the entire upper-left pine tree: its beautifully crooked black-indigo trunk and branches, and all delicate fan-shaped clusters of needles, in exactly their original upper-left positions and scale. The thick trunk begins around normalized (0.055,0.33), curves upward past (0.12,0.18), and arches right toward (0.38,0.25); needle canopy occupies x=0.02 to 0.40, y=0.015 to 0.35. Keep the entire right 60 percent and bottom 60 percent fully transparent. Tree only. Absolutely remove the rocky cliff, ocean, foam, paper sky, moon, clouds, any beige rectangular background or all other objects. ALL areas between needle strokes, branches and trunk must be actual alpha transparency, not paper color. Preserve the refined dark indigo woodblock print style: precise carved outlines, dry ink grain within the solid branch shapes, subtly lighter bark notches inside the dark trunk, many exquisitely delineated needles. The outer silhouette should be crisp and cut out, not glowy. No ground or base, no rocks, no background shadow, no border, no text. This is a compositing sprite meant to overlay the original clean plate at matching position, not a new centered picture. Keep at original position on a wide fully transparent canvas.",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 1406060,
+      "visibleAlphaOver32BoundingBox": [
+        17,
+        10,
+        873,
+        490
+      ],
+      "inspection": "view_image confirmed isolated indigo woodblock pine trunk, branches and needles with no rock, paper rectangle, moon or sea. Real alpha transparency verified. The generator enlarged and slightly redrew tree despite exact-position request, so this is not a pixel-exact extraction."
+    }
+  ],
+  "placement": {
+    "sameCanvasDimensions": true,
+    "requiresScaleAdjustment": true,
+    "suggestedCanvasScaleRelativeToFullScene": 0.75,
+    "suggestedCanvasTopLeftNormalized": [
+      0,
+      0.008
+    ],
+    "explanation": "Display the entire transparent 1672x941 layer at 75% of scene width and height. Its visible tree then occupies about x13–655 and y15–375 on the native 1672x941 scene, close to original upper-left extent. The root base overlaps left cliff.",
+    "suggestedAnchorInLayerPixels": [
+      90,
+      440
+    ],
+    "suggestedTransformOriginPercent": [
+      5.382775119617225,
+      46.75876726886291
+    ],
+    "suggestedAnchorInSceneNormalized": [
+      0.04037081339712919,
+      0.35869075451647187
+    ],
+    "note": "These are operator placement suggestions, not browser-verified alignment. Root should remain embedded in cliff; use common cover/contain image geometry."
+  },
+  "animation": {
+    "suggestion": "Slow anchored sway around root, roughly ±0.3° to ±0.6° over 7–11 seconds, with trunk-root overlap maintained. Do not translate entire layer freely.",
+    "status": "Operator inspection completed; independent composition and motion review remains with root."
+  }
+}

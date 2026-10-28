@@ -1,0 +1,138 @@
+{
+  "researched_at": "2026-10-28",
+  "method": "Web search and Steam Workshop description text; no video playback, installation or frame-rate measurement. No skills used.",
+  "availability_note": "Some extracted pages contain removed/incompatible banners alongside full descriptions. Current install availability is not established.",
+  "subscriber_counts_collected": false,
+  "works": [
+    {
+      "workshop_id": "3234465928",
+      "title": "Synthwave Drive by VISUALDON - 4K 60fps",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3234465928",
+      "type": "Video",
+      "evidence": "detail_page",
+      "supported_motion_features": [
+        "side-scrolling retro car",
+        "3840 x 2160",
+        "title claims 60fps"
+      ],
+      "limitations": "Not verified as realtime 3D."
+    },
+    {
+      "workshop_id": "2911967662",
+      "title": "Supra Mk4 Tunnel by Visualdon - 4K 60fps",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2911967662",
+      "type": "Video",
+      "evidence": "search_index",
+      "supported_motion_features": [
+        "Toyota Supra Mk4 driving in a tunnel",
+        "4K 60fps loop stated by description",
+        "inspired by old-school Need For Speed"
+      ],
+      "limitations": "No video viewing or measured fps."
+    },
+    {
+      "workshop_id": "2215418014",
+      "title": "The Drive by VISUALDON - 4K 60fps Version",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2215418014",
+      "type": "Video",
+      "evidence": "search_index",
+      "supported_motion_features": [
+        "retro style loop",
+        "tribute to HOME Resonance",
+        "3840 x 2160"
+      ],
+      "limitations": "No verified camera path or speed."
+    },
+    {
+      "workshop_id": "2244339517",
+      "title": "Passing Breeze - Synthwave (3D)",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2244339517",
+      "type": "Scene",
+      "evidence": "detail_page",
+      "supported_motion_features": [
+        "3D scene",
+        "360 degree camera",
+        "4 static camera positions",
+        "audio ring visualizer",
+        "dynamic resolution"
+      ],
+      "limitations": "No driving-speed evidence."
+    },
+    {
+      "workshop_id": "2348914357",
+      "title": "Space Journey",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2348914357",
+      "type": "Scene",
+      "evidence": "detail_page",
+      "supported_motion_features": [
+        "spaceship travel and hangar theme",
+        "interactive cockpit screens and joystick",
+        "audio responsive lights",
+        "parallax"
+      ],
+      "limitations": "Does not establish high-speed realtime 3D travel."
+    },
+    {
+      "workshop_id": "2819268329",
+      "title": "Realistic Interstellar Black Hole 4K",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2819268329",
+      "type": "Scene",
+      "evidence": "detail_page_and_search_index",
+      "supported_motion_features": [
+        "animated accretion disk",
+        "rotating spaceship",
+        "distant supernova explosion",
+        "planet matter pulled into black hole"
+      ],
+      "limitations": "Physical accuracy and motion speed not verified."
+    },
+    {
+      "workshop_id": "3673417519",
+      "title": "The Passage By VISUALDON - 4K 60 FPS",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3673417519",
+      "type": null,
+      "evidence": "search_index",
+      "supported_motion_features": [
+        "astronaut floats through crystal tunnel"
+      ],
+      "limitations": "Detail page rate-limited; no verified seamless loop."
+    },
+    {
+      "workshop_id": "1962488668",
+      "title": "Shapes & Lights Tunnel",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1962488668",
+      "type": "Web",
+      "evidence": "detail_page",
+      "supported_motion_features": [
+        "travel through abstract tunnel of shapes and lights",
+        "speed control",
+        "glow control",
+        "shape direction control",
+        "dynamic resolution"
+      ],
+      "limitations": "Underlying render engine unverified."
+    }
+  ],
+  "original_design_directions": [
+    {
+      "name": "Midnight Run",
+      "motion": "Stable car subject with fast near-road and tunnel geometry, moving wheels and suspension."
+    },
+    {
+      "name": "Orbital Transit",
+      "motion": "Stable cockpit framing and large solid gates approaching, occluding and passing camera."
+    },
+    {
+      "name": "Kinetic Vault",
+      "motion": "Thick mechanical ring modules translating along axis with phase-offset rotation."
+    }
+  ],
+  "acceptance_criteria": [
+    "Motion remains obvious with particles disabled.",
+    "Solid projected geometry changes size and occludes other geometry.",
+    "Foreground/midground/background have distinct apparent speeds.",
+    "No loop reset occurs in view.",
+    "Lighting distinguishes dark, lit and emissive surfaces.",
+    "Observe real browser playback and verify different frames; do not infer performance from title."
+  ]
+}

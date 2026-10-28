@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-28",
+  "reviewer": "独立子agent character_review",
+  "rubric": "reviews/character-rubric.md",
+  "method": "CUA Chrome真实页面逐款观察与操作，未使用skill，未改业务代码",
+  "viewport": "截图约1431×628，桌面Chrome；未测试移动端、长时性能或系统减弱动态",
+  "scope": "六款鲜艳人物/幻想壁纸的明显动效与共享控制；艺术数值另列",
+  "initialFailure": "21与22首轮持续黑屏“正在展开原画…”，反馈后开发侧修复；修复后重新打开通过。本审查未捕获应用SecurityError，仅见扩展错误，故不以日志虚证根因。",
+  "unverified": [
+    "声音与混音同步",
+    "移动端与多分辨率",
+    "长时性能和帧率",
+    "系统减弱动态",
+    "资产许可链与完整商用交付"
+  ],
+  "items": [
+    {
+      "id": "17-electric-idol",
+      "name": "电光心跳",
+      "functionalResult": "通过",
+      "checks": {
+        "defaultMultiTimeMotion": true,
+        "maxSpeed3": true,
+        "maxIntensity3": true,
+        "pauseMultiTimeStill": true,
+        "resume": true,
+        "immersiveEnterExit": true,
+        "returnToGallery": true,
+        "intensityZeroOriginal": "未专项测试"
+      },
+      "observation": "耳机青色光脉冲、左侧彩环旋转、浮点和下方频谱变化；3档更亮更快。",
+      "limitations": "人物本体保持静态，频谱悬在衣服前方，属于主题装饰动效而非角色表演。",
+      "scores": {
+        "风格还原": 8.2,
+        "创意惊艳": 7.5,
+        "动效工艺": 7.4,
+        "设计排版": 8.0,
+        "质感细节": 8.0,
+        "声音同步": 5.0,
+        "技术规格": 7.2,
+        "商用完成度": 7.0
+      },
+      "average": 7.2875,
+      "strictAbove7_5": 3,
+      "numericPass": false,
+      "artConclusion": "不通过",
+      "soundStatus": "未提供可验证声景；未实听，5.0为待验证占位",
+      "confidence": "功能高；艺术中等；商用与技术完整性有限",
+      "motionReview": {
+        "status": "passed",
+        "evidence": "耳机青色光脉冲、左侧彩环旋转、浮点和下方频谱变化；3档更亮更快。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+      },
+      "status": "passed",
+      "evidence": "耳机青色光脉冲、左侧彩环旋转、浮点和下方频谱变化；3档更亮更快。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+    },
+    {
+      "id": "18-solar-mecha",
+      "name": "日冕机甲",
+      "functionalResult": "通过",
+      "checks": {
+        "defaultMultiTimeMotion": true,
+        "maxSpeed3": true,
+        "maxIntensity3": true,
+        "pauseMultiTimeStill": true,
+        "resume": true,
+        "immersiveEnterExit": true,
+        "returnToGallery": true,
+        "intensityZeroOriginal": "未专项测试"
+      },
+      "observation": "胸部反应堆光变化，蓝色扫描线不同高度移动，HUD与微粒增强；机体硬表面未拉扯。",
+      "limitations": "HUD直线/网格偏简单，机甲和舰船主体没有关节或航行运动。",
+      "scores": {
+        "风格还原": 8.1,
+        "创意惊艳": 7.4,
+        "动效工艺": 7.2,
+        "设计排版": 8.0,
+        "质感细节": 8.2,
+        "声音同步": 5.0,
+        "技术规格": 7.2,
+        "商用完成度": 7.0
+      },
+      "average": 7.2625,
+      "strictAbove7_5": 3,
+      "numericPass": false,
+      "artConclusion": "不通过",
+      "soundStatus": "未提供可验证声景；未实听，5.0为待验证占位",
+      "confidence": "功能高；艺术中等；商用与技术完整性有限",
+      "motionReview": {
+        "status": "passed",
+        "evidence": "胸部反应堆光变化，蓝色扫描线不同高度移动，HUD与微粒增强；机体硬表面未拉扯。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+      },
+      "status": "passed",
+      "evidence": "胸部反应堆光变化，蓝色扫描线不同高度移动，HUD与微粒增强；机体硬表面未拉扯。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+    },
+    {
+      "id": "19-moon-witch",
+      "name": "月相魔女",
+      "functionalResult": "通过",
+      "checks": {
+        "defaultMultiTimeMotion": true,
+        "maxSpeed3": true,
+        "maxIntensity3": true,
+        "pauseMultiTimeStill": true,
+        "resume": true,
+        "immersiveEnterExit": true,
+        "returnToGallery": true,
+        "intensityZeroOriginal": "未专项测试"
+      },
+      "observation": "星点位置及亮度变化、法阵环转动，发丝及衣饰有细微局部变化；脸部保持稳定。",
+      "limitations": "3档细圆环覆盖胸前，空间遮挡感较弱，人物动态幅度仍克制。",
+      "scores": {
+        "风格还原": 8.2,
+        "创意惊艳": 7.5,
+        "动效工艺": 7.6,
+        "设计排版": 8.0,
+        "质感细节": 8.2,
+        "声音同步": 5.0,
+        "技术规格": 7.2,
+        "商用完成度": 7.0
+      },
+      "average": 7.3375,
+      "strictAbove7_5": 4,
+      "numericPass": false,
+      "artConclusion": "不通过",
+      "soundStatus": "未提供可验证声景；未实听，5.0为待验证占位",
+      "confidence": "功能高；艺术中等；商用与技术完整性有限",
+      "motionReview": {
+        "status": "passed",
+        "evidence": "星点位置及亮度变化、法阵环转动，发丝及衣饰有细微局部变化；脸部保持稳定。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+      },
+      "status": "passed",
+      "evidence": "星点位置及亮度变化、法阵环转动，发丝及衣饰有细微局部变化；脸部保持稳定。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+    },
+    {
+      "id": "20-pop-skater",
+      "name": "超频街头",
+      "functionalResult": "通过",
+      "checks": {
+        "defaultMultiTimeMotion": true,
+        "maxSpeed3": true,
+        "maxIntensity3": true,
+        "pauseMultiTimeStill": true,
+        "resume": true,
+        "immersiveEnterExit": true,
+        "returnToGallery": true,
+        "intensityZeroOriginal": "未专项测试"
+      },
+      "observation": "三角与方形转动，彩色速度线连续改变位置；3档更密更亮更快。",
+      "limitations": "主体为定格插画，几何符号浮于鞋、服装前层，缺少与滑板轨迹绑定的纵深。",
+      "scores": {
+        "风格还原": 8.3,
+        "创意惊艳": 7.7,
+        "动效工艺": 7.3,
+        "设计排版": 8.0,
+        "质感细节": 8.0,
+        "声音同步": 5.0,
+        "技术规格": 7.2,
+        "商用完成度": 7.0
+      },
+      "average": 7.3125,
+      "strictAbove7_5": 4,
+      "numericPass": false,
+      "artConclusion": "不通过",
+      "soundStatus": "未提供可验证声景；未实听，5.0为待验证占位",
+      "confidence": "功能高；艺术中等；商用与技术完整性有限",
+      "motionReview": {
+        "status": "passed",
+        "evidence": "三角与方形转动，彩色速度线连续改变位置；3档更密更亮更快。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+      },
+      "status": "passed",
+      "evidence": "三角与方形转动，彩色速度线连续改变位置；3档更密更亮更快。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+    },
+    {
+      "id": "21-jelly-dream",
+      "name": "琉璃浮梦",
+      "functionalResult": "通过",
+      "checks": {
+        "defaultMultiTimeMotion": true,
+        "maxSpeed3": true,
+        "maxIntensity3": true,
+        "pauseMultiTimeStill": true,
+        "resume": true,
+        "immersiveEnterExit": true,
+        "returnToGallery": true,
+        "intensityZeroOriginal": true
+      },
+      "observation": "修复后立即显示，气泡位置与流线相位变化，触须局部起伏；0档原画无新增气泡流线，3档显著增强。",
+      "limitations": "新增线条与气泡比原画珠宝细节简单，3档有平面覆盖感；生物运动非完整体积动画。",
+      "scores": {
+        "风格还原": 8.4,
+        "创意惊艳": 7.8,
+        "动效工艺": 7.8,
+        "设计排版": 8.0,
+        "质感细节": 8.3,
+        "声音同步": 5.0,
+        "技术规格": 7.2,
+        "商用完成度": 7.0
+      },
+      "average": 7.4375,
+      "strictAbove7_5": 5,
+      "numericPass": false,
+      "artConclusion": "不通过",
+      "soundStatus": "未提供可验证声景；未实听，5.0为待验证占位",
+      "confidence": "功能高；艺术中等；商用与技术完整性有限",
+      "motionReview": {
+        "status": "passed",
+        "evidence": "修复后立即显示，气泡位置与流线相位变化，触须局部起伏；0档原画无新增气泡流线，3档显著增强。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+      },
+      "status": "passed",
+      "evidence": "修复后立即显示，气泡位置与流线相位变化，触须局部起伏；0档原画无新增气泡流线，3档显著增强。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+    },
+    {
+      "id": "22-crimson-swordswoman",
+      "name": "绯月剑歌",
+      "functionalResult": "通过",
+      "checks": {
+        "defaultMultiTimeMotion": true,
+        "maxSpeed3": true,
+        "maxIntensity3": true,
+        "pauseMultiTimeStill": true,
+        "resume": true,
+        "immersiveEnterExit": true,
+        "returnToGallery": true,
+        "intensityZeroOriginal": true
+      },
+      "observation": "修复后正常加载，金色碎叶跨时刻飞移、衣发局部缓动；0档去掉动态碎叶，3档增强；脸部与手部未见明显变形。",
+      "limitations": "小金色碎叶与原图大银杏叶形态有差异，动态主要是氛围与局部形变。",
+      "scores": {
+        "风格还原": 8.3,
+        "创意惊艳": 7.7,
+        "动效工艺": 7.7,
+        "设计排版": 8.0,
+        "质感细节": 8.3,
+        "声音同步": 5.0,
+        "技术规格": 7.2,
+        "商用完成度": 7.0
+      },
+      "average": 7.4,
+      "strictAbove7_5": 5,
+      "numericPass": false,
+      "artConclusion": "不通过",
+      "soundStatus": "未提供可验证声景；未实听，5.0为待验证占位",
+      "confidence": "功能高；艺术中等；商用与技术完整性有限",
+      "motionReview": {
+        "status": "passed",
+        "evidence": "修复后正常加载，金色碎叶跨时刻飞移、衣发局部缓动；0档去掉动态碎叶，3档增强；脸部与手部未见明显变形。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+      },
+      "status": "passed",
+      "evidence": "修复后正常加载，金色碎叶跨时刻飞移、衣发局部缓动；0档去掉动态碎叶，3档增强；脸部与手部未见明显变形。 默认及最大3×/3均观察到变化；暂停跨时刻静止、恢复、沉浸进入退出、返回作品集均通过。"
+    }
+  ]
+}

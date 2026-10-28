@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-28",
+  "reviewer": "unified_motion_review",
+  "environment": {
+    "browser": "Chrome via CUA independent tab",
+    "url": "http://localhost:5173/",
+    "viewportScreenshot": "1431x684"
+  },
+  "status": "functional-pass-with-visual-notes",
+  "scope": [
+    "00-tuscany-reborn",
+    "16-neon-drift",
+    "17-electric-idol",
+    "21-jelly-dream",
+    "23-midnight-overdrive",
+    "24-orbital-voyage",
+    "25-prism-corridor"
+  ],
+  "sharedUI": "All sampled entries have host back/info/title/clock/pager/play/settings/favorite/immersive/fullscreen/snapshot controls; no duplicate inner controls after readiness. Embedded audio is disabled. Scene-specific settings differ appropriately.",
+  "checks": {
+    "00": {
+      "pause": "two screenshots byte-identical",
+      "resume": true,
+      "settings": true,
+      "speedMax": "3x visible motion",
+      "hideRestore": true
+    },
+    "16": {
+      "pause": "visually identical world; clock crossed minute",
+      "resume": true,
+      "settings": true,
+      "speedMax": "strong city traversal",
+      "powerZero": "rain disappears but flight continues",
+      "hideRestore": true
+    },
+    "17": {
+      "pause": "two screenshots byte-identical",
+      "settings": true,
+      "speedMax": "3x effects visible",
+      "powerZero": "effects disappear, source artwork remains"
+    },
+    "21": {
+      "entryAndUnifiedUI": true,
+      "otherControls": "not separately retested; shared art-motion implementation is not substitute for independent observation"
+    },
+    "23": {
+      "pause": "two screenshots byte-identical",
+      "resume": true,
+      "settings": true,
+      "speedMax": "road, lamps and traffic visibly advance",
+      "powerZero": "visually frozen across observations",
+      "hideRestore": true,
+      "snapshotDownloaded": true
+    },
+    "24": {
+      "pause": "two screenshots byte-identical",
+      "settings": true,
+      "speedMax": "rings grow from center and pass viewport edge, stations move past ship",
+      "powerZero": "two screenshots byte-identical while playing",
+      "hideRestore": true,
+      "snapshotDownloaded": true
+    },
+    "25": {
+      "pause": "two screenshots byte-identical",
+      "settings": true,
+      "speedMax": "strong corridor traversal and ring rotation",
+      "powerZero": "two screenshots byte-identical while playing",
+      "hideRestore": true,
+      "snapshotDownloaded": true
+    }
+  },
+  "navigation": [
+    "16 next ->17",
+    "23 next ->24",
+    "25 previous ->24",
+    "24 back ->gallery 26 works"
+  ],
+  "covers": {
+    "method": "Actual UI click on 留住这一帧 after paused hidden-UI inspection; live rendered canvas PNG downloaded and copied unchanged. Fullscreen screenshots include AIX extension badge and faint restore control, so are evidence rather than covers.",
+    "files": [
+      "public/wallpapers/23-midnight-overdrive-preview.png",
+      "public/wallpapers/24-orbital-voyage-preview.png",
+      "public/wallpapers/25-prism-corridor-preview.png"
+    ]
+  },
+  "findings": [
+    {
+      "severity": "minor",
+      "finding": "Embedded settings hint mentions environment volume despite disabled audio and absent volume slider."
+    },
+    {
+      "severity": "minor",
+      "finding": "25 bright silver rings sometimes pass beneath white caption/clock, reducing local contrast."
+    },
+    {
+      "severity": "visual-quality",
+      "finding": "23 car and 24 ship/stations are visibly simplified geometric models; 24 is comparatively dark. Strong movement is verified; no award-quality claim."
+    },
+    {
+      "severity": "consistency",
+      "finding": "Power=0 differs by implementation: 16 retains travel with rain removed; new 23/24/25 freeze motion. Clarify semantics if exact cross-scene uniformity is required."
+    }
+  ],
+  "notTested": [
+    "mobile",
+    "performance/FPS benchmark",
+    "long-duration stability",
+    "audio listening",
+    "fullscreen action",
+    "every control on every scene",
+    "cross-browser"
+  ],
+  "evidence": "review-evidence/unified-*.png",
+  "round2": {
+    "time": "16:17–16:22",
+    "scope": [
+      "23/24/25 visuals and pause",
+      "16 power zero",
+      "UI contrast and copy"
+    ],
+    "status": "no-blockers-observed",
+    "pauseByteIdentical": {
+      "23": true,
+      "24": true,
+      "25": true
+    },
+    "neonPowerZeroByteIdentical": true,
+    "visualImprovements": {
+      "23": "wedge car, spoiler, glass, exhaust/diffuser and reflective wet road",
+      "24": "purple-blue nebula, thick armored rings and clearer ship",
+      "25": "cyan purple orange strips, crossing square structures and varied scales"
+    },
+    "fixed": [
+      "embedded volume copy",
+      "caption/clock contrast in sampled bright backgrounds",
+      "16 power zero now freezes flight"
+    ],
+    "covers": "replaced with second-round actual downloaded live canvas PNGs; all opened for visual verification",
+    "historicalCovers": "review-evidence/round1-*-cover.png",
+    "evidence": "review-evidence/r2-*.png",
+    "limitations": "No phone, FPS, long-duration, audio, all-scenes or all-controls retest; no award-quality claim"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "04-pixel-rain",
+  "revision": "Remove baked rain from static background",
+  "date": "2026-10-28",
+  "sourceImage": "public/wallpapers/04-pixel-rain.png",
+  "outputImage": "public/layers/04-rain-clean.png",
+  "originalGenerationPath": "generated-assets/exec-16874ed0-28bf-4922-8f97-9205081fd8fd.png",
+  "tool": "image_gen__imagegen",
+  "model": "Concrete model identifier not exposed by tool",
+  "prompt": "Perform a precise localized cleanup edit on this supplied pixel-art convenience-store night wallpaper. It will be a background plate for a realtime rain animation. REMOVE every single baked-in airborne rain streak, rain dash, suspended drop, blue vertical or diagonal rain bar, and frozen splash/drop in the foreground or sky. The air must be completely clear and empty of rain pixels everywhere, including top sky, before distant buildings, before shop windows, and foreground road. In particular, remove the conspicuous light-blue vertical dashes scattered throughout the upper sky and the vertical upright blue splash lines on the lower foreground. Fill removed rain marks seamlessly using the exact surrounding discrete pixel colors. Keep the entire underlying scene exactly the same: camera framing, street corner building, window grid, warm amber interior, striped green canopy, vending machine, distant buildings, dark wires, trees, paving, curved street, benches, poles, streetlights. KEEP the wet road's horizontal amber and teal reflection pixel clusters and puddle surface patterns; only remove airborne rain and upright rain impact spikes. The rain will be added in code, so do not draw any new rain, haze, drizzle, snow, sparks or particles. Essential: retain the authentic hard-edge PIXEL ART style with crisp staircase edges and discrete rectangular pixel clusters. No blur, no smoothing, no antialiasing conversion, no painterly change, no vector redraw, no added text. Output one full-frame same-composition 16:9 image, a clean-air wet-night pixel-art background.",
+  "width": 1672,
+  "height": 941,
+  "transparentBackground": false,
+  "sourcePreserved": true,
+  "inspection": {
+    "method": "view_image source before edit and output after copying",
+    "operatorObservations": [
+      "Conspicuous airborne blue rain bars removed across sky and before buildings.",
+      "Upright foreground rain splash bars removed.",
+      "Pixel staircase edges, discrete color clusters, awning, shop architecture and warm window lighting remain crisp.",
+      "Horizontal wet-road amber and teal reflections remain intact.",
+      "No visible blur or new typography."
+    ],
+    "status": "Operator visual inspection completed; independent review and integration to be performed by root."
+  },
+  "integration": {
+    "use": "Replace only displayed background source with this clean plate. Preserve original wallpaper file.",
+    "effect": "Render all falling rain and splash marks through live pixel-aligned particles.",
+    "coordinates": "Same 1672×941 dimensions and framing as original, so existing normalized masks remain applicable."
+  }
+}

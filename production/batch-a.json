@@ -1,0 +1,465 @@
+{
+  "batch": "A",
+  "count": 5,
+  "records": [
+    {
+      "id": "01-impasto-night",
+      "title": "潮汐星原",
+      "outputPath": "public/wallpapers/01-impasto-night.png",
+      "originalPath": "generated-assets/exec-fc7e1013-0249-4ecd-9cda-3b9a67106591.png",
+      "prompt": "Create one original premium desktop wallpaper, landscape exact 16:9 composition, maximum available native resolution. Full bleed artwork only, absolutely no lettering, signature, border, UI, mockup or collage. Original title concept: Tidal Starfield. A tactile impasto oil painting of a secluded deep-blue crescent bay after midnight. Design an entirely new composition: low distant coast curves down from the far right at mid-height to bottom-right, a very small ivory lighthouse with a warm light on that headland at x .82 y .51; broad unobstructed water fills the bottom-left and lower center. The upper 62 percent is a magnificent cobalt/ultramarine sky with flowing directional short brush marks, rhythmic elongated star halos and a restrained glowing amber moon at x .24 y .26. A large oblique river of pale turquoise brushwork traverses the sky from upper-left toward center-right, NOT a copy of any famous starry sky. The whole image has juicy actual raised paint strokes, coarse linen beneath, skillful hand-painted chiaroscuro, palette-knife gold touches, brilliant blue balanced with luminous amber. Avoid a cypress, village, church steeple or familiar Van Gogh composition. Compose like a sophisticated museum-grade contemporary oil painting: richly textured yet calm, dark edges, strong asymmetry, sky breathing room. Water has separate gently curved horizontal paint strokes and scattered moonlight dashes, a continuous clean region suitable for subtle horizontal ripple animation; keep shore vegetation and rocks limited to the far-right lower corner, no crossing foreground branches or rocks. Art language inspiration only: directional brush rhythm and cold/warm contrast of popular oil-painted night wallpapers; make a substantially new coast and new sky geometry.",
+      "source": {
+        "tool": "image_gen__imagegen",
+        "provider": "OpenAI image generation tool",
+        "model": "Tool does not expose concrete model identifier"
+      },
+      "generatedAt": "2026-10-28",
+      "requestedAspectRatio": "16:9",
+      "nativeResolution": {
+        "width": 1672,
+        "height": 941
+      },
+      "resolutionNote": "Maximum available resolution requested in prompt; tool exposes no size parameter. Native output retained without upscaling.",
+      "referenceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=863123048",
+      "referenceAnalysisPath": "research/references.json",
+      "referenceUse": "Style-language analysis only; no reference image was sent to generator and composition is original.",
+      "inspection": {
+        "method": "view_image on copied local PNG",
+        "status": "Generation operator visual inspection completed; not an independent review approval",
+        "observation": "Visible thick raised impasto and distinct coastal composition; no text or obvious artifacts."
+      },
+      "scene": {
+        "coordinateSystem": "Normalized [0,1] coordinates, origin top-left; polygons are conservative animation regions",
+        "waterPolygon": [
+          [
+            0,
+            0.65
+          ],
+          [
+            0.55,
+            0.65
+          ],
+          [
+            0.71,
+            0.68
+          ],
+          [
+            0.9,
+            0.75
+          ],
+          [
+            0.84,
+            0.85
+          ],
+          [
+            0.65,
+            0.92
+          ],
+          [
+            0.59,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "skyPolygon": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.49
+          ],
+          [
+            0.8,
+            0.57
+          ],
+          [
+            0.6,
+            0.63
+          ],
+          [
+            0,
+            0.63
+          ]
+        ],
+        "effects": [
+          "Low-amplitude 0.8–1.6px horizontal water ripples",
+          "Slow star glow breathing"
+        ],
+        "avoid": [
+          "Do not warp rocky shoreline",
+          "Keep lighthouse geometry stable"
+        ],
+        "inspection": "Visible thick raised impasto and distinct coastal composition; no text or obvious artifacts."
+      }
+    },
+    {
+      "id": "02-ink-mountains",
+      "title": "听山",
+      "outputPath": "public/wallpapers/02-ink-mountains.png",
+      "originalPath": "generated-assets/exec-c951bec2-008a-41df-981e-9366f1646ed9.png",
+      "prompt": "Create one original horizontal 16:9 desktop wallpaper at maximum native resolution. Pure fine-art traditional Chinese ink wash on warm ivory xuan paper, absolutely no text, calligraphy, seals, frame, interface, collage or decorative border. Original concept Listening to Mountains. Over sixty percent of the composition is nearly blank gently fibrous rice paper and translucent mist. At the far left, a monumental tapering mountain cliff rises from fog, its dry split-brush charcoal contours and wet ink blooms rendered with extreme expressive confidence, detailed small pines confined to its ridge. A narrow white waterfall cuts through its lower dark vertical rock face at x .25. Smaller distant vertical mountains recede only along the upper middle-left and right-center, almost disappearing into mist. The top-right quadrant stays largely completely empty. A lake occupies the lower 40 percent, nearly white and beautifully quiet, suggested with five to ten spare thin horizontal pale-grey strokes. At x .68 y .78 is one tiny dark flat wooden boat with a barely indicated seated figure, a single restrained ink mark at landscape scale. Soft pale reflection under cliffs, no busy reflections. Rich ink density only on left mountain and sparse pine details, everything else breathtaking negative space. Japanese/Chinese literati painting sensitivity, elegant asymmetrical panoramic composition, beautiful dry-brush granulation and wet-in-wet mineral grey textures, physical handmade paper, no photorealism, no digitally smooth concept-art mist, no watercolor rainbow, no dramatic fantasy architecture. Deliberately a new landscape, borrowing only concentrated ink mass and generous negative space from popular monochrome ink wallpaper language. Create clearly separated open mist and lake regions so future subtle mist drifting can be masked away from sharp landforms.",
+      "source": {
+        "tool": "image_gen__imagegen",
+        "provider": "OpenAI image generation tool",
+        "model": "Tool does not expose concrete model identifier"
+      },
+      "generatedAt": "2026-10-28",
+      "requestedAspectRatio": "16:9",
+      "nativeResolution": {
+        "width": 1672,
+        "height": 941
+      },
+      "resolutionNote": "Maximum available resolution requested in prompt; tool exposes no size parameter. Native output retained without upscaling.",
+      "referenceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2113406377",
+      "referenceAnalysisPath": "research/references.json",
+      "referenceUse": "Style-language analysis only; no reference image was sent to generator and composition is original.",
+      "inspection": {
+        "method": "view_image on copied local PNG",
+        "status": "Generation operator visual inspection completed; not an independent review approval",
+        "observation": "Confident ink mass, warm paper negative space, narrow waterfall and tiny boat; no text or seals."
+      },
+      "scene": {
+        "coordinateSystem": "Normalized [0,1] coordinates, origin top-left; polygons are conservative animation regions",
+        "waterPolygon": [
+          [
+            0,
+            0.78
+          ],
+          [
+            0.63,
+            0.78
+          ],
+          [
+            0.63,
+            0.86
+          ],
+          [
+            0.74,
+            0.86
+          ],
+          [
+            0.74,
+            0.78
+          ],
+          [
+            1,
+            0.78
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "mistPolygon": [
+          [
+            0.48,
+            0.55
+          ],
+          [
+            0.64,
+            0.51
+          ],
+          [
+            0.64,
+            0.62
+          ],
+          [
+            1,
+            0.66
+          ],
+          [
+            1,
+            0.75
+          ],
+          [
+            0.52,
+            0.75
+          ]
+        ],
+        "skyPolygon": [
+          [
+            0.51,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.45
+          ],
+          [
+            0.61,
+            0.45
+          ]
+        ],
+        "effects": [
+          "Very low-opacity horizontal mist drift",
+          "Subtle calm-lake ripple"
+        ],
+        "avoid": [
+          "Paper grain must remain fixed",
+          "Exclude boat and mountain silhouettes from deformation"
+        ],
+        "inspection": "Confident ink mass, warm paper negative space, narrow waterfall and tiny boat; no text or seals."
+      }
+    },
+    {
+      "id": "03-ukiyoe-wave",
+      "title": "松风潮汐",
+      "outputPath": "public/wallpapers/03-ukiyoe-wave.png",
+      "originalPath": "generated-assets/exec-08f3a3e0-6978-4e7d-8597-a93a14294288.png",
+      "prompt": "Create one original exquisite Japanese ukiyo-e woodblock-print desktop wallpaper in horizontal 16:9, maximum native resolution, full bleed, no words, signatures, seals, panels, border, UI or typography. Original concept Pine Wind and Tides. A highly sophisticated asymmetrical composition: a dark indigo rocky promontory restricted to the leftmost 20 percent, its solitary elegant bent pine leans inward along the upper-left edge, fine but graphic needles. On the right at x .73 y .28 floats a large perfectly round softly muted persimmon-red moon against unprinted pale warm parchment sky. A few thin horizontal pale blue cloud ribbons cross below it. The sea begins near y .50 and fills the whole lower half with three broad gently curved fan-shaped bands of blue tidal current; beautiful parallel ink contour lines run through these waves and small cream foam beads dance along the front edges. Waves are low rolling stylized tidal ridges, NOT a giant iconic wave arch and NOT fingerlike claw foam. No mountain cone, no boats, no Hokusai composition. Use an intentionally limited four-colour woodblock palette: deep indigo, slate blue, faded red, warm ivory. Actual hand-printed washi grain, subtly uneven ink coverage, slight elegant colour registration variation, strong flat graphic silhouettes, crisp dark curving outlines and decorative repetitive wave lines, no digital gradient ocean, no watercolor rendering, no photorealism. Keep the central and right lower sea unobstructed with no nearby objects and no shore at bottom: large clean water region for slow layered wave movement. Deliberate empty upper-right sky and restrained distant horizon. Premium collectible print with emotionally quiet moonlit mood and bold dynamic curve rhythm.",
+      "source": {
+        "tool": "image_gen__imagegen",
+        "provider": "OpenAI image generation tool",
+        "model": "Tool does not expose concrete model identifier"
+      },
+      "generatedAt": "2026-10-28",
+      "requestedAspectRatio": "16:9",
+      "nativeResolution": {
+        "width": 1672,
+        "height": 941
+      },
+      "resolutionNote": "Maximum available resolution requested in prompt; tool exposes no size parameter. Native output retained without upscaling.",
+      "referenceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1340469439",
+      "referenceAnalysisPath": "research/references.json",
+      "referenceUse": "Style-language analysis only; no reference image was sent to generator and composition is original.",
+      "inspection": {
+        "method": "view_image on copied local PNG",
+        "status": "Generation operator visual inspection completed; not an independent review approval",
+        "observation": "Graphic limited-color woodblock waves, pine silhouette, red moon and visible paper texture; no iconic wave arch or Mount Fuji."
+      },
+      "scene": {
+        "coordinateSystem": "Normalized [0,1] coordinates, origin top-left; polygons are conservative animation regions",
+        "waterPolygon": [
+          [
+            0.24,
+            0.52
+          ],
+          [
+            1,
+            0.52
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0.76
+          ],
+          [
+            0.21,
+            0.7
+          ],
+          [
+            0.26,
+            0.6
+          ]
+        ],
+        "skyPolygon": [
+          [
+            0.41,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0.49
+          ],
+          [
+            0.41,
+            0.49
+          ]
+        ],
+        "effects": [
+          "Extremely slow low-amplitude lateral sea line movement",
+          "Sparse foam brightness variation"
+        ],
+        "avoid": [
+          "Red moon remains fixed",
+          "No pine or cliff deformation"
+        ],
+        "inspection": "Graphic limited-color woodblock waves, pine silhouette, red moon and visible paper texture; no iconic wave arch or Mount Fuji."
+      }
+    },
+    {
+      "id": "04-pixel-rain",
+      "title": "凌晨便利店",
+      "outputPath": "public/wallpapers/04-pixel-rain.png",
+      "originalPath": "generated-assets/exec-de9913ef-0a8c-4d3f-b156-ec6500611ee3.png",
+      "prompt": "Create one original professional PIXEL ART desktop wallpaper in landscape 16:9, maximum available native resolution. Full bleed image only, NO text, numbers, letters, logos, signature, frame, UI or collage. Pixel-art scene titled The Last Corner Shop. Deep rainy midnight in a quiet small city. Camera looks diagonally across an empty wet street at a charming single-storey corner convenience store in the center-right (roughly x .45 to .86, y .33 to .72), its broad large windows glowing honey amber, tiny orderly shelves behind glass, flat desaturated jade and cream striped canopy. A solitary mint-blue vending machine stands beside it near the right side, abstract coloured rectangular products but no lettering. Dark navy apartment blocks and a few staggered lit windows recede on the left. Overhead wires are simple crisp stepped pixel paths. A tiny potted plant next to the shop door and an empty bench convey human life; no person needed. Rainy road fills the lower 30 percent in a large clean continuous area with segmented amber and muted teal puddle reflections. The sky upper-left is flat deep midnight indigo with sparse vertical integer-pixel rain dashes. The crucial visual style is authentic hand-placed retro pixel art, composed on approximately a 480x270 logical canvas and enlarged with nearest-neighbor-like sharp hard square blocks: visible consistent square pixel grid scale, precise stairstep diagonals, compact controlled colour clusters, only 24 colours, no antialiasing, NO blur, no soft brush strokes, no vector outlines, no photographic or painterly effects, no smooth lighting gradients. Every window edge and raindrop is pixel-crisp. Warm/cold lighting expressed through stacked discrete flat colour bands. Rich atmospheric artistry with restrained detail and large calm surfaces, like a masterful indie-game background. Keep rooflines fixed and scene legible, transparent empty rain corridors and open puddles for future pixel-based rain animation. Entirely original streetscape and building design.",
+      "source": {
+        "tool": "image_gen__imagegen",
+        "provider": "OpenAI image generation tool",
+        "model": "Tool does not expose concrete model identifier"
+      },
+      "generatedAt": "2026-10-28",
+      "requestedAspectRatio": "16:9",
+      "nativeResolution": {
+        "width": 1672,
+        "height": 941
+      },
+      "resolutionNote": "Maximum available resolution requested in prompt; tool exposes no size parameter. Native output retained without upscaling.",
+      "referenceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2908791635",
+      "referenceAnalysisPath": "research/references.json",
+      "referenceUse": "Style-language analysis only; no reference image was sent to generator and composition is original.",
+      "inspection": {
+        "method": "view_image on copied local PNG",
+        "status": "Generation operator visual inspection completed; not an independent review approval",
+        "observation": "Visible stepped pixel edges and discrete clusters; original shop streetscape and no lettering."
+      },
+      "scene": {
+        "coordinateSystem": "Normalized [0,1] coordinates, origin top-left; polygons are conservative animation regions",
+        "waterPolygon": [
+          [
+            0,
+            0.7
+          ],
+          [
+            0.28,
+            0.7
+          ],
+          [
+            0.4,
+            0.75
+          ],
+          [
+            1,
+            0.81
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "skyPolygon": [
+          [
+            0.12,
+            0
+          ],
+          [
+            0.32,
+            0
+          ],
+          [
+            0.32,
+            0.17
+          ],
+          [
+            0.14,
+            0.16
+          ]
+        ],
+        "effects": [
+          "Integer-pixel rain dashes",
+          "2–4 frame puddle rings",
+          "Low-frequency warm lamp flicker"
+        ],
+        "avoid": [
+          "No smooth liquid displacement",
+          "Keep architectural edges crisp",
+          "Reduce rain overlay within interior windows"
+        ],
+        "inspection": "Visible stepped pixel edges and discrete clusters; original shop streetscape and no lettering."
+      }
+    },
+    {
+      "id": "05-lowpoly-islands",
+      "title": "浮岛邮局",
+      "outputPath": "public/wallpapers/05-lowpoly-islands.png",
+      "originalPath": "generated-assets/exec-56382ff0-1f9c-4102-a71d-bc821f517515.png",
+      "prompt": "Generate one original premium landscape 16:9 desktop wallpaper, maximum native resolution, full bleed artwork with no text, logo, signature, border, UI, collage or labels. Title concept Floating Island Post Office. A real stylized LOW-POLYGON 3D RENDER, unmistakably a carefully modeled three-dimensional scene rendered in Blender/Cinema4D, flat-shaded triangular mesh surfaces, hard angular polygon edges, physically believable soft area lighting, ambient occlusion at contacts. NOT a painted concept illustration, NOT watercolor, NOT photoreal landscape, NOT smooth rounded clay. Broad nearly empty pale mint atmosphere surrounds exactly THREE suspended inverted-pyramid rock islands arranged on an elegant rising diagonal from lower-left to upper-right. Main island at x .57 y .57 is medium-sized and sculptural, its jagged underside composed of 15–25 large exposed ochre, terracotta, sand and mauve triangular rock facets. Flat moss-green polygonal turf on top, a tiny ivory-and-sienna post-office cottage with a sloped red geometric roof and a distinctly faceted simple small windmill behind it; two mint conical low-poly trees. A smaller island at x .29 y .64 bears a single cluster of faceted jade trees, and a smaller one at x .80 y .37 has three irregular low-poly rocks and a tiny cream geometric tower. Two extremely slender suspended wooden bridges connect the islands with clear readable support geometry, no impossible tangled cables. Each island is distinct with clean sky around its outline, occupies less than 23 percent of frame width. Flat polygonal milky-white clouds made of angular geometric forms sit much farther behind and near the bottom edges, sparse and widely separated. The rest is large clean pale turquoise negative space with subtle atmospheric depth. Use tasteful restrained mint, warm ivory, oxidized terracotta and sage; sunlight upper left gives alternating light and shade to every planar triangular facet. The islands must have strongly visible actual hard flat-shaded 3D polygon faces, like a premium low-poly game diorama. Calm high design, balanced scale, broad empty sky at upper-left for future ambient cloud particles. No characters, rabbits, carrots, flying vehicles, typography or image noise. Original scene independent of popular floating low-poly subjects.",
+      "source": {
+        "tool": "image_gen__imagegen",
+        "provider": "OpenAI image generation tool",
+        "model": "Tool does not expose concrete model identifier"
+      },
+      "generatedAt": "2026-10-28",
+      "requestedAspectRatio": "16:9",
+      "nativeResolution": {
+        "width": 1672,
+        "height": 940
+      },
+      "resolutionNote": "Maximum available resolution requested in prompt; tool exposes no size parameter. Native output retained without upscaling.",
+      "referenceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1808443523",
+      "referenceAnalysisPath": "research/references.json",
+      "referenceUse": "Style-language analysis only; no reference image was sent to generator and composition is original.",
+      "inspection": {
+        "method": "view_image on copied local PNG",
+        "status": "Generation operator visual inspection completed; not an independent review approval",
+        "observation": "Three faceted islands with clean flat-shaded 3D geometry, coherent bridges and broad mint sky; no text."
+      },
+      "scene": {
+        "coordinateSystem": "Normalized [0,1] coordinates, origin top-left; polygons are conservative animation regions",
+        "waterPolygon": [],
+        "skyPolygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0.62,
+            0
+          ],
+          [
+            0.62,
+            0.2
+          ],
+          [
+            0.34,
+            0.2
+          ],
+          [
+            0.21,
+            0.32
+          ],
+          [
+            0.21,
+            0.59
+          ],
+          [
+            0,
+            0.59
+          ]
+        ],
+        "effects": [
+          "Very slow lower cloud drift",
+          "Minimal camera parallax",
+          "Optional isolated windmill rotor centered near normalized [0.676,0.225]"
+        ],
+        "avoid": [
+          "Do not deform bridges or island facets",
+          "Rotor requires proper original blade mask to avoid doubling"
+        ],
+        "inspection": "Three faceted islands with clean flat-shaded 3D geometry, coherent bridges and broad mint sky; no text."
+      }
+    }
+  ]
+}
