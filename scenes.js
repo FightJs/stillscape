@@ -5,7 +5,7 @@ const scenes = [
     "subtitle": "A BREATH OF TUSCANY",
     "style": "oil",
     "category": "绘画艺术",
-    "image": "/wallpapers/00-tuscany-reborn.png",
+    "image": "./wallpapers/00-tuscany-reborn.png",
     "palette": [
       "#cf9347",
       "#525d3b",
@@ -105,7 +105,7 @@ const scenes = [
     "referenceId": null,
     "foreground": [
       {
-        "image": "/layers/tuscany-cypress.png",
+        "image": "./layers/tuscany-cypress.png",
         "anchor": [
           0.075,
           1.03
@@ -177,7 +177,7 @@ const scenes = [
     "subtitle": "TIDAL CONSTELLATIONS",
     "style": "oil",
     "category": "绘画艺术",
-    "image": "/wallpapers/01-impasto-night.png",
+    "image": "./wallpapers/01-impasto-night.png",
     "palette": [
       "#102D59",
       "#2F67A1",
@@ -305,7 +305,7 @@ const scenes = [
     "subtitle": "LISTEN TO THE MOUNTAINS",
     "style": "ink",
     "category": "东方意境",
-    "image": "/wallpapers/02-ink-mountains.png",
+    "image": "./wallpapers/02-ink-mountains.png",
     "palette": [
       "#ECE8DE",
       "#797C77",
@@ -446,7 +446,7 @@ const scenes = [
     "subtitle": "TIDES IN WOODCUT",
     "style": "ukiyoe",
     "category": "东方意境",
-    "image": "/layers/03-pine-clean.png",
+    "image": "./layers/03-pine-clean.png",
     "palette": [
       "#133F60",
       "#4D7793",
@@ -518,7 +518,7 @@ const scenes = [
     },
     "foreground": [
       {
-        "image": "/layers/03-pine-layer.png",
+        "image": "./layers/03-pine-layer.png",
         "anchor": [
           0.0404,
           0.3587
@@ -587,7 +587,7 @@ const scenes = [
     "subtitle": "AFTER HOURS",
     "style": "pixel",
     "category": "数字幻想",
-    "image": "/layers/04-rain-clean.png",
+    "image": "./layers/04-rain-clean.png",
     "palette": [
       "#171D35",
       "#425A81",
@@ -694,7 +694,7 @@ const scenes = [
     "subtitle": "THE FLOATING POST",
     "style": "lowpoly",
     "category": "数字幻想",
-    "image": "/layers/05-clean.png",
+    "image": "./layers/05-clean.png",
     "palette": [
       "#B5E1DC",
       "#F0EEDC",
@@ -721,7 +721,7 @@ const scenes = [
     },
     "foreground": [
       {
-        "image": "/layers/05-rotor.png",
+        "image": "./layers/05-rotor.png",
         "anchor": [
           0.67584,
           0.23911
@@ -790,7 +790,7 @@ const scenes = [
     "subtitle": "RAIN AT PIER SEVEN",
     "style": "cyberpunk",
     "category": "数字幻想",
-    "image": "/wallpapers/06-cyberpunk-city.png",
+    "image": "./wallpapers/06-cyberpunk-city.png",
     "palette": [
       "#09151f",
       "#294047",
@@ -908,7 +908,7 @@ const scenes = [
     "subtitle": "RINGS OF BREATH",
     "style": "minimal",
     "category": "极简空间",
-    "image": "/wallpapers/07-minimal-gradient.png",
+    "image": "./wallpapers/07-minimal-gradient.png",
     "palette": [
       "#bc7656",
       "#e5c8af",
@@ -986,7 +986,7 @@ const scenes = [
     "subtitle": "THE WEIGHT OF SILENCE",
     "style": "surreal",
     "category": "数字幻想",
-    "image": "/wallpapers/08-surreal-monolith.png",
+    "image": "./wallpapers/08-surreal-monolith.png",
     "palette": [
       "#b8795b",
       "#435258",
@@ -1079,7 +1079,7 @@ const scenes = [
     "subtitle": "SALT & BLUE",
     "style": "film",
     "category": "自然光影",
-    "image": "/wallpapers/09-film-coast.png",
+    "image": "./wallpapers/09-film-coast.png",
     "palette": [
       "#263238",
       "#7D9299",
@@ -1319,7 +1319,7 @@ const scenes = [
     "subtitle": "THE BLUE SILENCE",
     "style": "space",
     "category": "自然光影",
-    "image": "/wallpapers/10-deep-space.png",
+    "image": "./wallpapers/10-deep-space.png",
     "palette": [
       "#071426",
       "#18558B",
@@ -1396,7 +1396,7 @@ const scenes = [
     "subtitle": "SHALLOW ECHOES",
     "style": "underwater",
     "category": "自然光影",
-    "image": "/wallpapers/11-underwater-blue.png",
+    "image": "./wallpapers/11-underwater-blue.png",
     "palette": [
       "#052F51",
       "#137FA1",
@@ -1511,7 +1511,7 @@ const scenes = [
     "subtitle": "POLAR SIGNAL",
     "style": "aurora",
     "category": "自然光影",
-    "image": "/wallpapers/12-aurora-lake.png",
+    "image": "./wallpapers/12-aurora-lake.png",
     "palette": [
       "#071B2D",
       "#41BD9B",
@@ -1630,7 +1630,7 @@ const scenes = [
     "subtitle": "AMBER BREATH",
     "style": "desert",
     "category": "自然光影",
-    "image": "/wallpapers/13-desert-dunes.png",
+    "image": "./wallpapers/13-desert-dunes.png",
     "palette": [
       "#C58B56",
       "#E7C697",
@@ -1708,7 +1708,7 @@ const scenes = [
     "subtitle": "FOREST BETWEEN PAGES",
     "style": "papercut",
     "category": "绘画艺术",
-    "image": "/wallpapers/14-papercut-forest.png",
+    "image": "./wallpapers/14-papercut-forest.png",
     "palette": [
       "#236D6F",
       "#E9E0CB",
@@ -1785,7 +1785,7 @@ const scenes = [
     "subtitle": "THE MOONLIT CONSERVATORY",
     "style": "garden",
     "category": "数字幻想",
-    "image": "/wallpapers/15-dream-garden.png",
+    "image": "./wallpapers/15-dream-garden.png",
     "palette": [
       "#082D39",
       "#2E7476",
@@ -1865,8 +1865,8 @@ const scenes = [
     "styleLabel": "交互式三维都市",
     "category": "交互三维",
     "kind": "embedded",
-    "src": "/experiences/neon-drift-3d.html?embed=1",
-    "image": "/wallpapers/neon-drift-preview.png",
+    "src": "./experiences/neon-drift-3d.html?embed=1",
+    "image": "./wallpapers/neon-drift-preview.png",
     "palette": [
       "#090f1e",
       "#7cf7e3",
@@ -1929,8 +1929,8 @@ const scenes = [
     "category": "动漫人物",
     "kind": "embedded",
     "isNew": true,
-    "src": "/experiences/art-motion.html?art=17-electric-idol&embed=1",
-    "image": "/wallpapers/17-electric-idol.png",
+    "src": "./experiences/art-motion.html?art=17-electric-idol&embed=1",
+    "image": "./wallpapers/17-electric-idol.png",
     "palette": [
       "#ddff21",
       "#00dcf4",
@@ -1980,8 +1980,8 @@ const scenes = [
     "category": "未来机械",
     "kind": "embedded",
     "isNew": true,
-    "src": "/experiences/art-motion.html?art=18-solar-mecha&embed=1",
-    "image": "/wallpapers/18-solar-mecha.png",
+    "src": "./experiences/art-motion.html?art=18-solar-mecha&embed=1",
+    "image": "./wallpapers/18-solar-mecha.png",
     "palette": [
       "#ff742a",
       "#183c8b",
@@ -2031,8 +2031,8 @@ const scenes = [
     "category": "动漫人物",
     "kind": "embedded",
     "isNew": true,
-    "src": "/experiences/art-motion.html?art=19-moon-witch&embed=1",
-    "image": "/wallpapers/19-moon-witch.png",
+    "src": "./experiences/art-motion.html?art=19-moon-witch&embed=1",
+    "image": "./wallpapers/19-moon-witch.png",
     "palette": [
       "#9c61ed",
       "#eac77b",
@@ -2082,8 +2082,8 @@ const scenes = [
     "category": "潮流图形",
     "kind": "embedded",
     "isNew": true,
-    "src": "/experiences/art-motion.html?art=20-pop-skater&embed=1",
-    "image": "/wallpapers/20-pop-skater.png",
+    "src": "./experiences/art-motion.html?art=20-pop-skater&embed=1",
+    "image": "./wallpapers/20-pop-skater.png",
     "palette": [
       "#f63727",
       "#2143b5",
@@ -2133,8 +2133,8 @@ const scenes = [
     "category": "超现实艺术",
     "kind": "embedded",
     "isNew": true,
-    "src": "/experiences/art-motion.html?art=21-jelly-dream&embed=1",
-    "image": "/wallpapers/21-jelly-dream.png",
+    "src": "./experiences/art-motion.html?art=21-jelly-dream&embed=1",
+    "image": "./wallpapers/21-jelly-dream.png",
     "palette": [
       "#fd93c7",
       "#7fe7e5",
@@ -2184,8 +2184,8 @@ const scenes = [
     "category": "动漫人物",
     "kind": "embedded",
     "isNew": true,
-    "src": "/experiences/art-motion.html?art=22-crimson-swordswoman&embed=1",
-    "image": "/wallpapers/22-crimson-swordswoman.png",
+    "src": "./experiences/art-motion.html?art=22-crimson-swordswoman&embed=1",
+    "image": "./wallpapers/22-crimson-swordswoman.png",
     "palette": [
       "#ca302b",
       "#161b24",
@@ -2236,8 +2236,8 @@ const scenes = [
     "kind": "embedded",
     "isNew": true,
     "featured": true,
-    "src": "/experiences/midnight-overdrive.html?embed=1",
-    "image": "/wallpapers/23-midnight-overdrive-preview.png",
+    "src": "./experiences/midnight-overdrive.html?embed=1",
+    "image": "./wallpapers/23-midnight-overdrive-preview.png",
     "palette": [
       "#14172e",
       "#f2488f",
@@ -2274,8 +2274,8 @@ const scenes = [
     "kind": "embedded",
     "isNew": true,
     "featured": false,
-    "src": "/experiences/orbital-voyage.html?embed=1",
-    "image": "/wallpapers/24-orbital-voyage-preview.png",
+    "src": "./experiences/orbital-voyage.html?embed=1",
+    "image": "./wallpapers/24-orbital-voyage-preview.png",
     "palette": [
       "#10213f",
       "#8bbdf5",
@@ -2312,8 +2312,8 @@ const scenes = [
     "kind": "embedded",
     "isNew": true,
     "featured": false,
-    "src": "/experiences/prism-corridor.html?embed=1",
-    "image": "/wallpapers/25-prism-corridor-preview.png",
+    "src": "./experiences/prism-corridor.html?embed=1",
+    "image": "./wallpapers/25-prism-corridor-preview.png",
     "palette": [
       "#151225",
       "#9d6aff",

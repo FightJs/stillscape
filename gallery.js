@@ -264,8 +264,9 @@ function updateMotionStatus(frame){
 }
 async function loadEmbeddedScene(scene,token){
   try{
-    const url=new URL(scene.src,location.origin);url.searchParams.set('embed','1');
-    if(url.origin!==location.origin||!/^\/experiences\/[a-zA-Z0-9_.-]+\.html$/.test(url.pathname))throw Error('Embedded scene must use a local experience HTML.');
+    const url=new URL(scene.src,document.baseURI);url.searchParams.set('embed','1');
+    const experiencesPath=new URL('./experiences/',document.baseURI).pathname;
+    if(url.origin!==location.origin||!url.pathname.startsWith(experiencesPath)||!/^[a-zA-Z0-9_.-]+\.html$/.test(url.pathname.slice(experiencesPath.length)))throw Error('Embedded scene must use a local experience HTML.');
     // Vite may return the gallery document for an absent HTML path. Detect that
     // fallback so a missing source never recursively embeds the host gallery.
     const response=await fetch(url.href,{credentials:'omit',cache:'no-cache'});

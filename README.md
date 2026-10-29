@@ -8,7 +8,7 @@ A living wallpaper gallery — paintings, anime art, and real-time 3D worlds.
 
 **26 款作品 · 统一播放器 · WebGL / Three.js · 纯静态部署**
 
-[在线体验](https://stillscape-living-worlds-xc.opal-moon-2891.chatgpt.site) · [快速开始](#快速开始) · [作品与玩法](#作品与玩法) · [开发指南](#开发指南)
+[在线体验](https://fightjs.github.io/stillscape/) · [快速开始](#快速开始) · [作品与玩法](#作品与玩法) · [开发指南](#开发指南)
 
 </div>
 
@@ -22,12 +22,12 @@ Stillscape 是一个在浏览器中运行的动态壁纸艺术集。它把绘画
 
 | 午夜超驰 | 星环远征 | 棱镜回廊 |
 | :---: | :---: | :---: |
-| [![午夜超驰](public/wallpapers/23-midnight-overdrive-preview.png)](https://stillscape-living-worlds-xc.opal-moon-2891.chatgpt.site/?scene=23-midnight-overdrive) | [![星环远征](public/wallpapers/24-orbital-voyage-preview.png)](https://stillscape-living-worlds-xc.opal-moon-2891.chatgpt.site/?scene=24-orbital-voyage) | [![棱镜回廊](public/wallpapers/25-prism-corridor-preview.png)](https://stillscape-living-worlds-xc.opal-moon-2891.chatgpt.site/?scene=25-prism-corridor) |
+| [![午夜超驰](public/wallpapers/23-midnight-overdrive-preview.png)](https://fightjs.github.io/stillscape//?scene=23-midnight-overdrive) | [![星环远征](public/wallpapers/24-orbital-voyage-preview.png)](https://fightjs.github.io/stillscape//?scene=24-orbital-voyage) | [![棱镜回廊](public/wallpapers/25-prism-corridor-preview.png)](https://fightjs.github.io/stillscape//?scene=25-prism-corridor) |
 | 跑车、弯道、车流与湿路反光 | 飞船、巨型环门与紫蓝星云 | 旋转机械环、彩光与连续穿行 |
 
 | 电光心跳 | 绯月剑歌 | 托斯卡纳的呼吸 |
 | :---: | :---: | :---: |
-| [![电光心跳](public/wallpapers/17-electric-idol.png)](https://stillscape-living-worlds-xc.opal-moon-2891.chatgpt.site/?scene=17-electric-idol) | [![绯月剑歌](public/wallpapers/22-crimson-swordswoman.png)](https://stillscape-living-worlds-xc.opal-moon-2891.chatgpt.site/?scene=22-crimson-swordswoman) | [![托斯卡纳的呼吸](public/wallpapers/00-tuscany-reborn.png)](https://stillscape-living-worlds-xc.opal-moon-2891.chatgpt.site/?scene=00-tuscany-reborn) |
+| [![电光心跳](public/wallpapers/17-electric-idol.png)](https://fightjs.github.io/stillscape//?scene=17-electric-idol) | [![绯月剑歌](public/wallpapers/22-crimson-swordswoman.png)](https://fightjs.github.io/stillscape//?scene=22-crimson-swordswoman) | [![托斯卡纳的呼吸](public/wallpapers/00-tuscany-reborn.png)](https://fightjs.github.io/stillscape//?scene=00-tuscany-reborn) |
 | 鲜彩人物、耳机光环与动态图形 | 红月、飘叶与衣发局部微动 | 油画笔触、湖面水波与柏树风摆 |
 
 > 三维作品的预览图来自实际运行画面的截帧；绘画与人物预览是原画。静态图片不展示完整动效，请进入在线体验查看。
@@ -173,9 +173,9 @@ npm run build
 
 运行 `npm ci && npm run build`，将 **`dist/` 的内容**发布到静态托管服务。无需后端、数据库或环境变量。
 
-资源路径目前按**域名根目录 `/`**组织。托管到根域名或独立子域名最直接；如果要部署到 GitHub Pages 的 `/仓库名/` 子路径，还需要统一修改 Vite base、场景资源路径与 iframe 路径，不能只改一个 base 就假定所有场景可用。
+构建使用相对路径，支持 GitHub Pages 的 `/stillscape/` 子路径，也支持部署到域名根目录。
 
-仓库提供 GitHub Actions 构建检查，不会自动覆盖现有在线站点。网站内容更新后需要重新构建并发布。
+合并到 `main` 后，GitHub Actions 自动构建并发布到 GitHub Pages；Pull Request 只执行构建检查。此前的 Sites 网址不会自动更新。
 
 ## 素材、参考与许可
 
