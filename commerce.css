@@ -1,0 +1,80 @@
+/* Membership and studio previews inherit the gallery's quiet art direction. */
+.site-header nav .membership-link { display: inline-flex; align-items: center; gap: 8px; color: var(--accent); }
+.site-header nav .membership-link span { margin: 0; padding: 3px 5px; border: 1px solid var(--line); font-size: 8px; letter-spacing: 1px; color: inherit; }
+.membership, .business { max-width: 1710px; margin: 100px auto 0; width: 90%; }
+.membership { border-top: 1px solid var(--line); padding-top: 64px; }
+.membership .section-heading { align-items: center; }
+.commerce-status { display: inline-flex; align-items: center; gap: 8px; font-size: 11px; line-height: 1.6; letter-spacing: 1px; color: var(--accent); }
+.commerce-status::before { content: ''; width: 5px; height: 5px; background: currentColor; border-radius: 50%; flex-shrink: 0; }
+.plan-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.plan-card { padding: 32px; border: 1px solid var(--line); display: flex; flex-direction: column; min-width: 0; }
+.plan-card-plus { background: #20271f; border-color: #c5d4a64d; }
+.plan-card-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.plan-edition { margin: 0; font: 20px Georgia, serif; letter-spacing: 1px; }
+.plan-card-plus .plan-edition { color: var(--accent); }
+.plan-state { font-size: 10px; color: var(--muted); }
+.plan-card h3 { margin: 28px 0 10px; font: 400 27px/1.5 'Songti SC', 'STSong', serif; }
+.plan-description, .plan-availability { color: var(--muted); font-size: 12px; line-height: 1.9; margin: 0; }
+.plan-availability { padding: 18px 0; color: var(--paper); }
+.plan-availability span { margin-left: 12px; color: var(--muted); font-size: 11px; }
+.plan-features { list-style: none; padding: 20px 0; margin: 0 0 16px; border-top: 1px solid var(--line); font-size: 12px; line-height: 2; }
+.plan-features li { display: flex; align-items: baseline; gap: 12px; margin: 6px 0; }
+.plan-features li::before { content: '—'; color: var(--accent); }
+.commerce-action { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 46px; padding: 12px 18px; border: 1px solid var(--line); font-size: 12px; line-height: 1.6; letter-spacing: 1px; transition: background .2s, border-color .2s; }
+.commerce-action > span { font-size: 18px; line-height: 1; }
+.commerce-action:hover { border-color: var(--accent); background: #c5d4a60d; }
+.plan-card .commerce-action { margin-top: auto; width: 100%; }
+.plan-card-plus .commerce-action { border-color: #c5d4a680; color: var(--accent); }
+.commerce-note { font-size: 11px; line-height: 1.9; color: var(--muted); margin: 20px 0 0; }
+.business { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); border: 1px solid var(--line); margin-top: 48px; }
+.business-art { position: relative; margin: 0; min-height: 340px; overflow: hidden; background: #253026; }
+.business-art img { width: 100%; height: 100%; position: absolute; object-fit: cover; }
+.business-art::after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, #101b13b3, transparent 55%); }
+.business-art figcaption { position: absolute; z-index: 1; bottom: 24px; left: 28px; right: 28px; font-size: 10px; line-height: 1.8; letter-spacing: 2px; color: #eae9e0; }
+.business-copy { padding: 40px; }
+.business-copy > .eyebrow { color: var(--accent); margin: 0 0 18px; }
+.business-copy h2 { font: 400 clamp(26px, 2.5vw, 36px)/1.5 'Songti SC', 'STSong', serif; margin: 0 0 16px; }
+.business-copy > p:not(.eyebrow) { color: var(--muted); font-size: 12px; line-height: 2; max-width: 440px; }
+.business-services { display: flex; flex-wrap: wrap; gap: 10px 20px; list-style: none; padding: 0; margin: 22px 0 28px; font-size: 11px; color: var(--paper); }
+.business-services li + li { border-left: 1px solid var(--line); padding-left: 20px; }
+.business-action-row { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-commerce { display: flex; flex-wrap: wrap; gap: 20px; }
+.footer-commerce a { min-height: 32px; display: inline-flex; align-items: center; }
+.footer-commerce a:hover { color: var(--accent); }
+.commerce-dialog { width: min(500px, calc(100vw - 34px)); }
+.commerce-dialog .commerce-status { margin-bottom: 20px; }
+.commerce-details { display: grid; grid-template-columns: auto 1fr; gap: 14px 24px; border-top: 1px solid var(--line); padding: 22px 0 0; margin: 24px 0 0; font-size: 12px; line-height: 1.9; }
+.commerce-details dt { color: var(--paper); }
+.commerce-details dd { color: var(--muted); margin: 0; }
+@media (max-width: 1100px) {
+  .site-header nav { gap: 18px; }
+  .business-copy { padding: 30px; }
+}
+@media (max-width: 760px) {
+  .site-header nav { gap: 16px; }
+  .site-header nav .membership-link { display: inline-flex; font-size: 11px; white-space: nowrap; }
+  .site-header nav .membership-link span { display: none; }
+  .membership, .business { width: 88%; margin-top: 64px; }
+  .membership { padding-top: 36px; }
+  .membership .section-heading .commerce-status { margin: 20px 0 0; }
+  .plan-grid, .business { grid-template-columns: 1fr; }
+  .plan-grid { gap: 16px; }
+  .plan-card { padding: 26px; }
+  .plan-card h3 { font-size: 25px; margin-top: 24px; }
+  .business { margin-top: 32px; }
+  .business-art { min-height: 220px; }
+  .business-copy { padding: 28px 24px; }
+  .business-services { gap: 10px 14px; }
+  .business-services li + li { padding-left: 14px; }
+  .footer-commerce { grid-column: 1 / -1; }
+  .commerce-details { grid-template-columns: 1fr; gap: 4px; }
+  .commerce-details dd { margin-bottom: 12px; }
+}
+@media (max-width: 360px) {
+  .site-header { padding-inline: 5%; }
+  .wordmark { gap: 8px; }
+  .site-header nav { gap: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .commerce-action { transition: none; }
+}
