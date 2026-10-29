@@ -1,4 +1,5 @@
 import './gallery.css';
+import './commerce.css';
 import scenes from './scenes.js';
 import { createWallpaperEngine } from './engine.js';
 import { Soundscape } from './soundscape.js';
@@ -171,6 +172,8 @@ function initialize(){
   $('#favorites-filter').onclick=()=>{favoritesOnly=!favoritesOnly;$('#favorites-filter').setAttribute('aria-pressed',String(favoritesOnly));renderGrid();$('#collection').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});};
   $('#clear-filters').onclick=resetFilters;$('#empty-reset').onclick=resetFilters;
   $('#about-open').onclick=()=>$('#about-dialog').showModal();$('#standards-open').onclick=()=>{renderStandards();$('#standards-dialog').showModal()};
+  $('#membership-open').onclick=()=>$('#membership-dialog').showModal();
+  $('#business-open').onclick=()=>$('#business-dialog').showModal();
   for(const dialog of $$('dialog')){dialog.querySelector('[data-close]').onclick=()=>dialog.close();dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();});}
   $('#motion-toggle').innerHTML=icon('pause');$('#sound-toggle').innerHTML=icon('mute');$('#settings-open').innerHTML=icon('settings');$('#viewer-favorite').innerHTML=icon('heart');$('#immersive-toggle').innerHTML=icon('eye');$('#fullscreen-toggle').innerHTML=icon('full');
   $('#viewer-back').onclick=()=>closeViewer();$('#scene-prev').onclick=()=>stepScene(-1);$('#scene-next').onclick=()=>stepScene(1);$('#motion-toggle').onclick=toggleMotion;$('#sound-toggle').onclick=toggleSound;$('#settings-open').onclick=()=>$('#settings-dialog').showModal();$('#motion-status').onclick=toggleMotion;$('#embedded-retry').onclick=()=>{if(currentIndex>=0)openScene(currentIndex,false)};$('#viewer-favorite').onclick=()=>{if(sceneList[currentIndex])toggleFavorite(sceneList[currentIndex])};$('#immersive-toggle').onclick=()=>setImmersive(!immersive);$('#restore-interface').onclick=()=>setImmersive(false);$('#fullscreen-toggle').onclick=toggleFullscreen;$('#download-frame').onclick=downloadFrame;$('#viewer-info').onclick=showSceneInfo;

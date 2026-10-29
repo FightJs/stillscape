@@ -3,18 +3,67 @@
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#171917"><meta name="description" content="Stillscape 静观。探索不同风格的动态壁纸与交互作品，从动漫人物、未来机甲到绘画风景，探索会动的艺术世界。"><title>Stillscape 静观 — 会呼吸的艺术</title></head>
 <body>
 <div id="gallery-app">
-  <header class="site-header"><a class="wordmark" href="./" aria-label="Stillscape 静观首页"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 30 16 16 30 2 16Z"/><path d="m6 20 7-11 5 9 3-5 5 7M9 24h14"/></svg><span>STILLSCAPE<small>静 观 · 会呼吸的艺术</small></span></a><nav aria-label="主导航"><a href="#collection">作品集 <span id="nav-count"></span></a><button id="about-open">关于静观</button><button id="favorites-filter" aria-label="只看我的收藏" aria-pressed="false"><span class="heart-icon" aria-hidden="true">♡</span><span class="favorite-label">我的收藏</span><span id="favorite-count">0</span></button></nav></header>
+  <header class="site-header"><a class="wordmark" href="./" aria-label="Stillscape 静观首页"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 30 16 16 30 2 16Z"/><path d="m6 20 7-11 5 9 3-5 5 7M9 24h14"/></svg><span>STILLSCAPE<small>静 观 · 会呼吸的艺术</small></span></a><nav aria-label="主导航"><a href="#collection">作品集 <span id="nav-count"></span></a><a class="membership-link" href="#membership">会员计划 <span>PLUS</span></a><a href="#business">商务合作</a><button id="about-open">关于静观</button><button id="favorites-filter" aria-label="只看我的收藏" aria-pressed="false"><span class="heart-icon" aria-hidden="true">♡</span><span class="favorite-label">我的收藏</span><span id="favorite-count">0</span></button></nav></header>
   <main>
     <section class="hero" aria-labelledby="hero-title"><img class="hero-image" alt="" fetchpriority="high"><div class="hero-shade"></div><div class="hero-topline"><span>A WINDOW TO YOUR IMAGINATION</span><span>CURATED LIVING WORLDS</span></div><div class="hero-copy"><p class="eyebrow">ART IN MOTION</p><h1 id="hero-title">驶入，<br><span>另一个世界。</span></h1><p class="hero-description">穿越霓虹长路、深空星环与旋转棱镜。<br>让整个世界在眼前流动。</p><button class="enter-button" id="hero-enter">进入此刻 <span aria-hidden="true">↗</span></button></div><div class="hero-caption"><span class="hero-index">01 <i>/</i> <span id="hero-count">16</span></span><span><strong id="hero-scene-title">托斯卡纳的黄昏</strong><small id="hero-scene-style">油彩里的金色时刻</small></span></div><a class="scroll-cue" href="#collection">向下，发现更多艺术 <span aria-hidden="true">↓</span></a></section>
     <section class="collection" id="collection" aria-labelledby="collection-title"><div class="section-heading"><div><p class="eyebrow">THE COLLECTION · 动态艺术集</p><h2 id="collection-title">每一种热爱，<em>都有形状。</em></h2></div><p class="section-description">从动漫人物到未来机甲，从斑斓波普到山野星海。<br>选择你的世界，让想象持续发生。</p></div><div class="collection-toolbar"><div class="filter-list" id="category-filters" role="group" aria-label="按风格筛选"></div><label class="search-field"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/><path d="m12 12 5 5"/></svg><input id="scene-search" type="search" placeholder="寻找角色、风格或世界" aria-label="搜索壁纸"></label></div><div class="results-line"><span id="results-count"></span><button id="clear-filters" hidden>清除筛选 ↗</button><span class="collection-note">FIND YOUR OWN UNIVERSE</span></div><div class="art-grid" id="art-grid"></div><div class="empty-state" id="empty-state" hidden><span>◌</span><h3>这里还没有作品</h3><p>试试其他关键词，或点亮作品上的爱心。</p><button id="empty-reset">查看全部作品 ↗</button></div></section>
+    <section class="membership" id="membership" aria-labelledby="membership-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">STILLSCAPE MEMBERSHIP · 会员计划</p><h2 id="membership-title">让喜欢，<em>多一种可能。</em></h2></div>
+        <p class="commerce-status">Plus 会员筹备中</p>
+      </div>
+      <div class="plan-grid">
+        <article class="plan-card" aria-labelledby="explore-title">
+          <div class="plan-card-top"><p class="plan-edition">Explore</p><span class="plan-state">现已开放</span></div>
+          <h3 id="explore-title">从一幅风景开始</h3>
+          <p class="plan-description">随时进入画廊，找到适合此刻的世界。</p>
+          <p class="plan-availability">免费体验<span>无需注册</span></p>
+          <ul class="plan-features"><li>浏览与播放当前全部作品</li><li>收藏喜欢的画面，调节动效节奏</li><li>沉浸观看与画面截帧</li></ul>
+          <a class="commerce-action" href="#collection">探索作品集 <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="plan-card plan-card-plus" aria-labelledby="plus-title">
+          <div class="plan-card-top"><p class="plan-edition">Stillscape Plus</p><span class="plan-state">即将推出</span></div>
+          <h3 id="plus-title">为热爱，留一扇窗</h3>
+          <p class="plan-description">面向个人的会员计划，正在慢慢成形。</p>
+          <p class="plan-availability">价格待公布<span>暂未开放订阅</span></p>
+          <ul class="plan-features"><li>规划中 · 会员主题与精选系列</li><li>规划中 · 更多个性化体验</li><li>具体权益与上线时间待公布</li></ul>
+          <button class="commerce-action" id="membership-open" aria-haspopup="dialog" aria-controls="membership-dialog">了解会员计划 <span aria-hidden="true">↗</span></button>
+        </article>
+      </div>
+      <p class="commerce-note">会员计划尚在筹备，当前作品继续免费体验。个人会员不包含商业使用授权。</p>
+    </section>
+    <section class="business" id="business" aria-labelledby="business-title">
+      <figure class="business-art"><img src="/wallpapers/00-tuscany-reborn.png" alt="柏树与湖光交织的托斯卡纳风景画" loading="lazy" width="1672" height="941"><figcaption>ART BEYOND THE SCREEN<br>让空间，也拥有自己的风景。</figcaption></figure>
+      <div class="business-copy">
+        <p class="eyebrow">STILLSCAPE STUDIO · 商务合作</p>
+        <h2 id="business-title">把静观，带进你的空间。</h2>
+        <p>为品牌、展陈与日常空间，探索动态艺术的更多表达。合作方案正在筹备，期待让画面与空间彼此呼应。</p>
+        <ul class="business-services" aria-label="规划中的合作方向"><li>品牌视觉定制</li><li>空间动态展陈</li><li>作品商用授权</li></ul>
+        <div class="business-action-row"><button class="commerce-action" id="business-open" aria-haspopup="dialog" aria-controls="business-dialog">查看合作说明 <span aria-hidden="true">↗</span></button><span class="commerce-status">合作通道筹备中</span></div>
+      </div>
+    </section>
     <section class="closing-note"><span class="small-star" aria-hidden="true">✳</span><p>无需去往远方。<br><em>美好的片刻，也可以就在眼前。</em></p><span class="eyebrow">LESS HURRY. MORE WONDER.</span></section>
   </main>
-  <footer class="site-footer"><a class="footer-brand" href="#">STILLSCAPE <span>静观</span></a><p>多元画面 · 自然节奏 · 为日常而作</p><button id="standards-open">创作与评审说明 ↗</button><span>© <span id="copyright-year"></span> STILLSCAPE</span></footer>
+  <footer class="site-footer"><a class="footer-brand" href="#">STILLSCAPE <span>静观</span></a><p>多元画面 · 自然节奏 · 为日常而作</p><nav class="footer-commerce" aria-label="会员与合作"><a href="#membership">会员计划</a><a href="#business">商务合作</a></nav><button id="standards-open">创作与评审说明 ↗</button><span>© <span id="copyright-year"></span> STILLSCAPE</span></footer>
 </div>
 <section id="viewer" tabindex="-1" hidden aria-label="动态壁纸预览"><img id="viewer-fallback" alt=""><canvas id="wallpaper-canvas" aria-label="动态艺术画面"></canvas><div id="embedded-stage" hidden></div><div id="embedded-error" hidden><p>作品暂时未能打开</p><span>原始作品文件尚未就位，或加载未能完成。</span><button id="embedded-retry">重新打开 ↗</button></div><div class="viewer-vignette"></div><header class="viewer-top viewer-ui"><button class="back-button" id="viewer-back"><span aria-hidden="true">←</span> 作品集</button><div class="viewer-location"><span id="viewer-position"></span><span id="viewer-style"></span></div><button class="round-button" id="viewer-info" aria-label="查看作品信息">i</button></header><button id="motion-status" class="motion-status viewer-ui" aria-live="polite" aria-label="查看动效状态"><span class="motion-status-dot" aria-hidden="true"></span><span id="motion-status-text">动效正在准备</span></button><div class="viewer-caption viewer-ui"><p class="eyebrow" id="viewer-subtitle"></p><h2 id="viewer-title"></h2><p id="viewer-description"></p></div><div class="viewer-time viewer-ui"><span>此 时 此 刻</span><time id="viewer-clock"></time><small id="viewer-date"></small></div><div class="viewer-bottom viewer-ui"><div class="scene-pager"><button id="scene-prev" aria-label="上一幅作品">←</button><span id="scene-counter"></span><button id="scene-next" aria-label="下一幅作品">→</button></div><div class="viewer-tools"><button id="motion-toggle" aria-label="暂停动效" aria-pressed="false"></button><button id="sound-toggle" aria-label="开启声音" aria-pressed="false"></button><span class="tool-separator"></span><button id="settings-open" aria-label="调节风景"></button><button id="viewer-favorite" aria-label="收藏此作品" aria-pressed="false"></button><button id="immersive-toggle" aria-label="隐藏界面，按 H 恢复"></button><button id="fullscreen-toggle" aria-label="进入全屏"></button></div><button class="download-button" id="download-frame">留住这一帧 <span aria-hidden="true">↓</span></button></div><button id="restore-interface" hidden>显示界面 <kbd>H</kbd></button><div class="viewer-loading" id="viewer-loading" hidden><span></span>风景正在展开</div></section>
 <dialog id="settings-dialog" class="settings-dialog"><button class="dialog-close" data-close aria-label="关闭设置">×</button><p class="eyebrow">THE RHYTHM OF NATURE</p><h2>调成你的节奏。</h2><p class="dialog-intro" id="settings-context" aria-live="polite">选择风景，调成适合此刻的节奏。</p><div class="settings-fields"><label class="speed-setting"><span class="setting-label">动态速度</span> <output id="setting-speed-value">1.00×</output><input id="setting-speed" aria-label="动态速度" data-setting="speed" type="range" min="25" max="300" value="100"><small>慢慢流动，或让变化更明显</small></label><label><span class="setting-label">风过树梢</span> <output id="setting-wind-value">100%</output><input id="setting-wind" aria-label="风力" data-setting="wind" type="range" min="0" max="300" value="100"></label><label><span class="setting-label">水面涟漪</span> <output id="setting-water-value">100%</output><input id="setting-water" aria-label="水波强度" data-setting="water" type="range" min="0" max="300" value="100"></label><label><span class="setting-label">云与空气</span> <output id="setting-cloud-value">100%</output><input id="setting-cloud" aria-label="云与空气流动" data-setting="cloud" type="range" min="0" max="300" value="100"></label><label><span class="setting-label">流动的光</span> <output id="setting-light-value">100%</output><input id="setting-light" aria-label="光感强度" data-setting="light" type="range" min="0" max="300" value="100"></label><label hidden><span class="setting-label">动态强度</span> <output id="setting-power-value">100%</output><input id="setting-power" aria-label="动态强度" data-setting="power" type="range" min="0" max="300" value="100"></label><label class="volume-setting"><span class="setting-label">环境音量</span> <output id="setting-volume-value">30%</output><input id="setting-volume" aria-label="环境音量" data-setting="volume" type="range" min="0" max="100" value="30"></label></div><div id="scene-options" class="scene-options" aria-label="场景选项"></div><div class="setting-foot"><button id="reset-settings">恢复自然节奏</button><span>只显示这幅风景中可调节的动效</span></div></dialog>
 <dialog id="info-dialog" class="info-dialog"><button class="dialog-close" data-close aria-label="关闭作品信息">×</button><p class="eyebrow">BEHIND THE LANDSCAPE</p><h2 id="info-title"></h2><p id="info-description"></p><dl id="info-details"></dl><div id="info-review"></div></dialog>
 <dialog id="about-dialog" class="about-dialog"><button class="dialog-close" data-close aria-label="关闭关于静观">×</button><p class="eyebrow">A LITTLE STILLNESS, EVERY DAY</p><h2>一扇窗。<br>不止一种世界。</h2><p>静观收录原创动态风景与用户提供的独立交互作品。不同的视觉语言、自然的运动与环境声，共同构建可以停留的空间。</p><p>收藏喜欢的作品，戴上耳机，或把界面藏起来。无需做什么，只要在这里待一会儿。</p><div class="keyboard-guide"><span><kbd>H</kbd> 隐藏界面</span><span><kbd>空格</kbd> 暂停</span><span><kbd>M</kbd> 声音</span><span><kbd>← →</kbd> 切换</span></div></dialog>
 <dialog id="standards-dialog" class="standards-dialog"><button class="dialog-close" data-close aria-label="关闭创作说明">×</button><p class="eyebrow">MOTION REVIEW · CURRENT EDITION</p><h2>让每一处变化，<br>都看得见。</h2><p>当前进行的是<strong>动效专项复验</strong>。作品卡片仅展示本轮独立记录；嵌入的用户作品按交互验证结果标注。</p><ul class="motion-review-checks"><li>默认档能够感知主要运动</li><li>最大档与默认档有明显差异</li><li>零档停止对应的运动</li><li>无破图、边缘撕裂或明显穿帮</li></ul><p>“动效已复验”和“交互已验证”只说明本轮对应检查已完成，不代表原八维整体验收，也不代表获得真实奖项。未验证的项目保留为待复验。</p><details class="historical-standard"><summary>历史八维评审标准</summary><p>原标准覆盖风格、创意、动效、排版、质感、声音、技术及交付完整性；通过门槛为至少五项超过 7.5 分，且八项平均达到 8.0 分。</p><p>这些成绩保留在历史报告中，不继承为当前动效版本的通过证明，也不与本轮专项结果拼接成新分数。</p></details><div class="standard-summary" id="standard-summary"></div></dialog>
+<dialog id="membership-dialog" class="commerce-dialog" aria-labelledby="membership-dialog-title" aria-describedby="membership-dialog-description">
+  <button class="dialog-close" data-close aria-label="关闭会员计划" autofocus>×</button>
+  <p class="eyebrow">STILLSCAPE PLUS</p><h2 id="membership-dialog-title">更多可能，正在准备。</h2>
+  <p id="membership-dialog-description">Plus 会员尚未开放订阅。你可以继续免费浏览与体验当前画廊，无需注册。</p>
+  <dl class="commerce-details"><dt>计划方向</dt><dd>会员主题、精选系列与更多个性化体验，均在规划中。</dd><dt>价格与上线</dt><dd>价格、订阅周期、正式权益与上线时间待公布。</dd><dt>使用范围</dt><dd>个人会员不包含作品商用授权，商务使用需另行确认。</dd></dl>
+  <p>开放消息将展示在这里，目前无需付款或提交个人信息。</p>
+</dialog>
+<dialog id="business-dialog" class="commerce-dialog" aria-labelledby="business-dialog-title" aria-describedby="business-dialog-description">
+  <button class="dialog-close" data-close aria-label="关闭合作说明" autofocus>×</button>
+  <p class="eyebrow">STILLSCAPE STUDIO</p><h2 id="business-dialog-title">为你的空间，构想一幅风景。</h2>
+  <p id="business-dialog-description">商务合作通道正在筹备，暂未开放咨询与需求提交。以下为拟开展的合作方向。</p>
+  <dl class="commerce-details"><dt>品牌视觉定制</dt><dd>围绕品牌主题，探索专属的动态画面。</dd><dt>空间动态展陈</dt><dd>面向展厅、门店与办公空间，规划适合的视觉内容。</dd><dt>作品商用授权</dt><dd>根据具体作品、使用场景与期限，单独确认授权范围。</dd></dl>
+  <p>正式合作方式与联系方式将在开放时公布。画廊中的公开展示不代表已获得商业使用授权。</p>
+</dialog>
 <div id="gallery-toast" role="status" aria-live="polite"></div><script type="module" src="/gallery.js"></script>
 </body></html>
